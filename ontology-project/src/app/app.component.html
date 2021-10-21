@@ -1,3 +1,31 @@
-<div>
-  <p> Hello </p>
+<div class="container">
+  <h1> Query Selector </h1>
+
+  <div class="buttons">
+    <button class="button" (click)="sendQuery(1)"> {{query1}} </button>
+    <button class="button" (click)="sendQuery(2)"> {{query2}} </button>
+    <button class="button" (click)="sendQuery(3)"> {{query3}} </button>
+    <button class="button" (click)="sendQuery(4)"> {{query4}} </button>
+    <button class="button" (click)="sendQuery(5)"> {{query5}} </button>
+    <button class="button" (click)="sendQuery(6)"> {{query6}} </button>
+    <button class="button" (click)="sendQuery(7)"> {{query7}} </button>
+    <button class="button" (click)="sendQuery(8)"> {{query8}} </button>
+    <button class="button" (click)="sendQuery(9)"> {{query9}} </button>
+    <button class="button" (click)="sendQuery(10)"> {{query10}} </button>
+  </div>
+  
+  <h2> Responses: </h2>
+  
+  <table *ngIf="queryResponses.length > 0">
+    <tr>
+      <th>Subject</th>
+      <th>Predicate</th>
+      <th>Object</th>
+    </tr>
+    <tr *ngFor="let query of queryResponses">
+      <td>{{query.s.value}}</td>
+      <td>{{query.o.value}}</td>
+      <td>{{query.p.value}}</td>
+    </tr>
+  </table>
 </div>

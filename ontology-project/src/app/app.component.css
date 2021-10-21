@@ -1,0 +1,22 @@
+table, th, td {
+  border:1px solid black;
+}
+
+th, td {
+  padding:10px;
+}
+
+.container {
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.button {
+  width: 300px;
+  padding:10px;
+}
