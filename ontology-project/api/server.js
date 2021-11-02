@@ -38,10 +38,10 @@ var store = rdfstore.create(function(err, store) {});
 
 // return the sparql result from one of the listed queries (query identifed by number from client end)
 app.get('/getQueryResponse/:queryId', (req, res) => {
-  // load the data string into the store
+  // load the rdf data string into the store
   store.load('text/turtle', rdf, function(err) {
     if (!err) {
-      // execute the query and return the response
+      // execute the query spcified from the id parameter and return the response
       store.execute(queries[req.params.queryId], function(success, results) {
         res.json(results);
       });

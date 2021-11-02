@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
   
   constructor( private service : AppServiceService) {}
   
-  // function that gets called on loading component (can delete if don't use)
+  // function that gets called on loading component (can delete later if don't use)
   ngOnInit() {
     console.log("component loaded");
   }
