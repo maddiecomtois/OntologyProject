@@ -18,9 +18,14 @@ const server = app.listen(port, function() {
 
 // list of queries to test
 var queries = {
-  1: "SELECT * WHERE { ?s ?p ?o } LIMIT 1",
-  2: "SELECT * WHERE { ?s ?p ?o } LIMIT 2",
-  3: "SELECT * WHERE { ?s ?p ?o } LIMIT 3",
+  1: "PREFIX ex: <http://example.org/> SELECT ?station ?HeightValue WHERE {?station ex:Height ?HeightValue . }",
+  2: "PREFIX ex: <http://example.org/> SELECT (SUM(?HeightValue) AS ?SumHeight) (AVG(?HeightValue) AS ?AvgHeight) \
+                                      WHERE {?station ex:Height ?HeightValue ; ex:hasCountyName ?County . \
+                                      FILTER(?County = \"Wicklow\") }",
+  3: "PREFIX ex: <http://example.org/> SELECT ?station ?Name # ?Year #?HeightValue ?County \
+                                      WHERE { ?station ex:hasStationName ?Name. \
+                                      OPTIONAL{ ?station ex:closeYear ?Year. } \
+                                      FILTER(!bound(?Year))}",
   4: "SELECT * WHERE { ?s ?p ?o } LIMIT 4",
   5: "SELECT * WHERE { ?s ?p ?o } LIMIT 5",
   6: "SELECT * WHERE { ?s ?p ?o } LIMIT 6",
@@ -31,7 +36,8 @@ var queries = {
 }
 
 // convert rdf data file into a string
-var rdf = fs.readFileSync('CovidCountyStatistics.ttl').toString();
+//var rdf = fs.readFileSync('CovidCountyStatistics.ttl').toString();
+var rdf = fs.readFileSync('MetEireannStationDetails.ttl').toString();
 
 // create an instance of an rdf store to search
 var store = rdfstore.create(function(err, store) {});
@@ -43,6 +49,7 @@ app.get('/getQueryResponse/:queryId', (req, res) => {
     if (!err) {
       // execute the query spcified from the id parameter and return the response
       store.execute(queries[req.params.queryId], function(success, results) {
+        console.log(results);
         res.json(results);
       });
     }
