@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AppServiceService } from './app-service.service';
 import { Observable } from 'rxjs';
 import { HttpClient, HttpParams, HttpHeaders } from '@angular/common/http';
 
@@ -20,7 +19,9 @@ export class AppComponent implements OnInit {
   graphDBurl = 'http://localhost:7200/repositories/OntologyProject';
   
   // list of prefixes for SPARQL queries
-  prefixes = `PREFIX wine: <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#>`;
+  prefixes = `PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+              PREFIX entertainment: <http://www.example.com/ns#>
+              PREFIX dbpr: <https://dbpedia.org/resource/>`;
   
   // SPARQL queries to test
   query1 = "SELECT * WHERE { ?s ?p ?o } LIMIT 1";
@@ -33,10 +34,9 @@ export class AppComponent implements OnInit {
   query8 = "SELECT * WHERE { ?s ?p ?o } LIMIT 8";
   query9 = "SELECT * WHERE { ?s ?p ?o } LIMIT 9";
   query10 = "SELECT * WHERE { ?s ?p ?o } LIMIT 10";
-  query11 = "select * where {?s wine:locatedIn/wine:locatedIn* ?o .} limit 5"
   queryInput: string = "";
   
-  constructor( private service : AppServiceService, private http: HttpClient) {}
+  constructor(private http: HttpClient) {}
 
   
   // function that gets called on loading component (can delete later if don't use)
@@ -93,20 +93,7 @@ export class AppComponent implements OnInit {
     }
     console.log("Query responses: ", this.queryResponses);
   }
-  
-  // send whichever query to server based on which button was pressed
-  /*
-  sendQuery(queryId) {
-    this.queryResponses = [];
-    // call function in service file to send/get data over http
-    this.service.getQueryResponse(queryId).subscribe((res: Query[]) => {
-      for(let i = 0; i < res.length; i++) {
-        this.queryResponses.push(res[i]);
-      }
-      console.log(this.queryResponses);
-    });
-  }  
-  */
+
 }
 
 // class to store the different attributes of a query response
