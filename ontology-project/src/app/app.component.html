@@ -1,18 +1,25 @@
 <div class="container">
   <h1> Query Selector </h1>
-
-  <div class="buttons">
-    <button class="button" (click)="getQueryResponse(this.query1)"> {{query1}} </button>
-    <button class="button" (click)="getQueryResponse(this.query2)"> {{query2}} </button>
-    <button class="button" (click)="getQueryResponse(this.query3)"> {{query3}} </button>
-    <button class="button" (click)="getQueryResponse(this.query4)"> {{query4}} </button>
-    <button class="button" (click)="getQueryResponse(this.query5)"> {{query5}} </button>
-    <button class="button" (click)="getQueryResponse(this.query6)"> {{query6}} </button>
-    <button class="button" (click)="getQueryResponse(this.query7)"> {{query7}} </button>
-    <button class="button" (click)="getQueryResponse(this.query8)"> {{query8}} </button>
-    <button class="button" (click)="getQueryResponse(this.query9)"> {{query9}} </button>
-    <button class="button" (click)="getQueryResponse(this.query10)"> {{query10}} </button>
-    <button class="button" (click)="getQueryResponse(this.query11)"> {{query11}} </button>
+  
+  <div class="queryContainer">
+    <div class="buttons">
+      <button class="button" (click)="getQueryResponse(this.query1)"> {{query1}} </button>
+      <button class="button" (click)="getQueryResponse(this.query2)"> {{query2}} </button>
+      <button class="button" (click)="getQueryResponse(this.query3)"> {{query3}} </button>
+      <button class="button" (click)="getQueryResponse(this.query4)"> {{query4}} </button>
+      <button class="button" (click)="getQueryResponse(this.query5)"> {{query5}} </button>
+      <button class="button" (click)="getQueryResponse(this.query6)"> {{query6}} </button>
+      <button class="button" (click)="getQueryResponse(this.query7)"> {{query7}} </button>
+      <button class="button" (click)="getQueryResponse(this.query8)"> {{query8}} </button>
+      <button class="button" (click)="getQueryResponse(this.query9)"> {{query9}} </button>
+      <button class="button" (click)="getQueryResponse(this.query10)"> {{query10}} </button>
+      <button class="button" (click)="getQueryResponse(this.query11)"> {{query11}} </button>
+    </div>
+    
+    <div class="inputQuery">
+      <textarea value="{{queryInput}}" [(ngModel)]="queryInput"></textarea>
+      <button (click)="getQueryResponse(queryInput)"> Submit </button>
+    </div>
   </div>
   
   <h2> Responses: </h2>

@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
   queryHeaders: String[] = [];
   
   // url to connect to graphDB
-  graphDBurl = 'http://localhost:7200/repositories/SDT11';
+  graphDBurl = 'http://localhost:7200/repositories/OntologyProject';
   
   // list of prefixes for SPARQL queries
   prefixes = `PREFIX wine: <http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#>`;
@@ -34,6 +34,7 @@ export class AppComponent implements OnInit {
   query9 = "SELECT * WHERE { ?s ?p ?o } LIMIT 9";
   query10 = "SELECT * WHERE { ?s ?p ?o } LIMIT 10";
   query11 = "select * where {?s wine:locatedIn/wine:locatedIn* ?o .} limit 5"
+  queryInput: string = "";
   
   constructor( private service : AppServiceService, private http: HttpClient) {}
 
