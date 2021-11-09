@@ -1,0 +1,56 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ex: <http://example.com/ns#>.
+ 
+<#NetflixTripleStore>
+     a rr:TriplesMap;
+
+    rr:logicalTable [ rr:tableName "walt_disney" ];
+
+    rr:subjectMap [
+        rr:template "http://example.com/Media/Movie/{TITLE}";
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rr:type;
+        rr:objectMap [rr:template "http://example.com/Movie"];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:title;
+        rr:objectMap [ rr:column "TITLE" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:provider;
+        rr:objectMap [rr:template "http://dbpedia.org/Disney+"];
+    ];
+ 
+    rr:predicateObjectMap [
+        rr:predicate ex:director;
+        rr:objectMap [ rr:column "DIRECTOR" ];
+    ];
+ 
+    rr:predicateObjectMap [
+        rr:predicate ex:cast;
+        rr:objectMap [ rr:column "CAST" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:country;
+        rr:objectMap [ rr:column "COUNTRY" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:date_added;
+        rr:objectMap [ rr:column "DATE_ADDED" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:release_year;
+        rr:objectMap [ rr:column "RELEASE_DATE" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:duration;
+        rr:objectMap [ rr:column "DURATION" ];
+    ].

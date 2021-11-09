@@ -1,0 +1,74 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ex: <http://example.com/ns/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+ 
+<#NetflixTripleStore>
+    a rr:TriplesMap;
+
+    rr:logicalTable [ rr:sqlQuery """
+
+        SELECT netflix_titles.*, (CASE TYPE
+            WHEN 'Movie' THEN 'Movie'
+            WHEN 'TV Show' THEN 'TVShow'
+        END) MEDIA_TYPE FROM netflix_titles
+
+        """ ];
+
+    rr:subjectMap [
+        rr:template "http://example.com/Media/{MEDIA_TYPE}/{TITLE}";
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rr:type;
+        rr:objectMap [rr:template "http://example.com/{MEDIA_TYPE}"];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:title;
+        rr:objectMap [ rr:column "TITLE" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:provider;
+        rr:objectMap [rr:template "http://dbpedia.org/resource/Netflix"];
+    ];
+ 
+    rr:predicateObjectMap [
+        rr:predicate ex:director;
+        rr:objectMap [ rr:column "DIRECTOR" ];
+    ];
+ 
+    rr:predicateObjectMap [
+        rr:predicate ex:cast;
+        rr:objectMap [ rr:column "CAST" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:country;
+        rr:objectMap [ rr:column "COUNTRY" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:date_added;
+        rr:objectMap [ rr:column "DATE_ADDED" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:release_year;
+        rr:objectMap [ rr:column "RELEASE_YEAR" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:rating;
+        rr:objectMap [ rr:column "RATING" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:duration;
+        rr:objectMap [ rr:column "DURATION" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:listed_in;
+        rr:objectMap [ rr:column "LISTED_IN" ];
+    ].

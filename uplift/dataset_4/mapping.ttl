@@ -1,0 +1,51 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ex: <http://example.com/ns#>.
+ 
+<#NetflixTripleStore>
+     a rr:TriplesMap;
+
+    rr:logicalTable [ rr:tableName "dataset_4" ];
+
+    rr:subjectMap [
+        rr:template "http://example.com/Media/Movie/{TITLE}";
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate rr:type;
+        rr:objectMap [rr:template "http://example.com/Movie"];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:title;
+        rr:objectMap [ rr:column "TITLE" ];
+    ];
+ 
+    rr:predicateObjectMap [
+        rr:predicate ex:director;
+        rr:objectMap [ rr:column "DIRECTORS" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:country;
+        rr:objectMap [ rr:column "COUNTRY" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:release_year;
+        rr:objectMap [ rr:column "YEAR" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:rating;
+        rr:objectMap [ rr:column "IMDB" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:duration;
+        rr:objectMap [ rr:column "RUNTIME" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:listed_in;
+        rr:objectMap [ rr:column "GENRES" ];
+    ].
