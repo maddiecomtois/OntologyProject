@@ -42,7 +42,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:addedtoDisney;
+        rr:predicate ex:addedToDisney;
         rr:objectMap [ rr:column "DATE_ADDED" ];
     ];
 
