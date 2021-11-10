@@ -1,6 +1,7 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix ex: <http://example.com/ns#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
  
 <#Dataset4TripleStore>
      a rr:TriplesMap;
@@ -16,12 +17,12 @@
         """ ];
 
     rr:subjectMap [
-        rr:template "http://example.com/Media/Movie/{TITLE}";
+        rr:template "http://www.example.org/entertainment/Movie/{TITLE}";
     ];
 
     rr:predicateObjectMap [
         rr:predicate rr:type;
-        rr:objectMap [rr:template "http://example.com/Movie"];
+        rr:objectMap [rr:template "http://www.example.org/entertainment/Movie"];
     ];
 
     rr:predicateObjectMap [
@@ -45,7 +46,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:rating;
+        rr:predicate ex:arating;
         rr:objectMap [ rr:column "IMDB" ];
     ];
 

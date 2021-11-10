@@ -1,5 +1,6 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
-@prefix ex: <http://example.com/ns#>.
+@prefix ex: <http://www.example.org/entertainment/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
  
 <#NetflixTripleStore>
      a rr:TriplesMap;
@@ -14,12 +15,12 @@
         """ ];
 
     rr:subjectMap [
-        rr:template "http://example.com/Media/{MEDIA_TYPE}/{TITLE}";
+        rr:template "http://www.example.org/entertainment/{MEDIA_TYPE}/{TITLE}";
     ];
 
     rr:predicateObjectMap [
-        rr:predicate rr:type;
-        rr:objectMap [rr:template "http://example.com/{MEDIA_TYPE}"];
+        rr:predicate rdf:type;
+        rr:objectMap [rr:template "http://www.example.org/entertainment/{MEDIA_TYPE}"];
     ];
 
     rr:predicateObjectMap [
