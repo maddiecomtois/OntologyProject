@@ -23,7 +23,7 @@
 
     rr:predicateObjectMap [
         rr:predicate ex:provider;
-        rr:objectMap [rr:template "http://dbpedia.org/Disney+"];
+        rr:objectMap [rr:template "http://dbpedia.org/DisneyPlus"];
     ];
  
     rr:predicateObjectMap [
