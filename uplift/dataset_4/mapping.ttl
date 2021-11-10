@@ -1,10 +1,19 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix ex: <http://example.com/ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
  
-<#NetflixTripleStore>
+<#Dataset4TripleStore>
      a rr:TriplesMap;
 
-    rr:logicalTable [ rr:tableName "dataset_4" ];
+    rr:logicalTable [ rr:sqlQuery """
+
+        SELECT dataset_4.*,
+        CASE
+            WHEN (NETFLIX = 1) THEN 'Netflix'
+            WHEN (DISNEYPLUS = 1) THEN 'DisneyPlus'
+        END AS PROVIDER FROM dataset_4
+
+        """ ];
 
     rr:subjectMap [
         rr:template "http://example.com/Media/Movie/{TITLE}";
@@ -19,6 +28,11 @@
         rr:predicate ex:title;
         rr:objectMap [ rr:column "TITLE" ];
     ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:provider;
+        rr:objectMap [rr:template "http://dbpedia.org/resource/{PROVIDER}"];
+    ];
  
     rr:predicateObjectMap [
         rr:predicate ex:director;
@@ -31,18 +45,16 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:release_year;
-        rr:objectMap [ rr:column "YEAR" ];
-    ];
-
-    rr:predicateObjectMap [
         rr:predicate ex:rating;
         rr:objectMap [ rr:column "IMDB" ];
     ];
 
     rr:predicateObjectMap [
         rr:predicate ex:duration;
-        rr:objectMap [ rr:column "RUNTIME" ];
+        rr:objectMap [ 
+            rr:column "RUNTIME";
+            rr:datatype xsd:integer
+        ];
     ];
 
     rr:predicateObjectMap [

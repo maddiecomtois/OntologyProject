@@ -1,0 +1,1 @@
+java -jar ../r2rml/r2rml.jar walt-disney-config.properties

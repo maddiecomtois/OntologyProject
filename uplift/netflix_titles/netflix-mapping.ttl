@@ -9,7 +9,7 @@
 
         SELECT netflix_titles.*, (CASE TYPE
             WHEN 'Movie' THEN 'Movie'
-            WHEN 'TV Show' THEN 'TVShow'
+            WHEN 'TV Show' THEN 'Show'
         END) MEDIA_TYPE FROM netflix_titles
 
         """ ];
@@ -49,7 +49,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:date_added;
+        rr:predicate ex:addedToNetflix;
         rr:objectMap [ rr:column "DATE_ADDED" ];
     ];
 

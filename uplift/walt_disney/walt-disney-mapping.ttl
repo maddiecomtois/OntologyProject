@@ -22,7 +22,7 @@
 
     rr:predicateObjectMap [
         rr:predicate ex:provider;
-        rr:objectMap [rr:template "http://dbpedia.org/Disney+"];
+        rr:objectMap [rr:template "http://dbpedia.org/DisneyPlus"];
     ];
  
     rr:predicateObjectMap [
@@ -41,7 +41,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:date_added;
+        rr:predicate ex:addedtoDisney;
         rr:objectMap [ rr:column "DATE_ADDED" ];
     ];
 

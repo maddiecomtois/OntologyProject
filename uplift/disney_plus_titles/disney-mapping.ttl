@@ -8,7 +8,7 @@
 
         SELECT disney_plus_titles.*, (CASE TYPE
             WHEN 'Movie' THEN 'Movie'
-            WHEN 'TV Show' THEN 'TVShow'
+            WHEN 'TV Show' THEN 'Show'
         END) MEDIA_TYPE FROM disney_plus_titles
 
         """ ];
@@ -29,7 +29,7 @@
 
     rr:predicateObjectMap [
         rr:predicate ex:provider;
-        rr:objectMap [rr:template "http://dbpedia.org/resource/Disney+"];
+        rr:objectMap [rr:template "http://dbpedia.org/resource/DisneyPlus"];
     ];
 
     rr:predicateObjectMap [
@@ -48,7 +48,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:date_added;
+        rr:predicate ex:addedToDisney;
         rr:objectMap [ rr:column "DATE_ADDED" ];
     ];
 
