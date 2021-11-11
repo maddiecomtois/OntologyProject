@@ -2,6 +2,7 @@
 @prefix ex: <http://www.example.org/entertainment/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
  
 <#NetflixTripleStore>
     a rr:TriplesMap;
@@ -51,7 +52,7 @@
 
     rr:predicateObjectMap [
         rr:predicate ex:addedToNetflix;
-        rr:objectMap [ rr:column "DATE_ADDED" ];
+        rr:objectMap [ rr:column "DATE_ADDED"; rr:datatype xsd:dateTime ];
     ];
 
     rr:predicateObjectMap [

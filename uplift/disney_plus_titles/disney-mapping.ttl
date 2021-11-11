@@ -1,6 +1,7 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix ex: <http://www.example.org/entertainment/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
  
 <#NetflixTripleStore>
      a rr:TriplesMap;
@@ -50,7 +51,7 @@
 
     rr:predicateObjectMap [
         rr:predicate ex:addedToDisney;
-        rr:objectMap [ rr:column "DATE_ADDED" ];
+        rr:objectMap [ rr:column "DATE_ADDED"; rr:datatype xsd:dateTime ];
     ];
 
     rr:predicateObjectMap [
