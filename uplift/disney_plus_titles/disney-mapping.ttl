@@ -10,7 +10,7 @@
 
         SELECT disney_plus_titles.*, (CASE TYPE
             WHEN 'Movie' THEN 'Movie'
-            WHEN 'TV Show' THEN 'Show'
+            WHEN 'TV Show' THEN 'TVShow'
         END) MEDIA_TYPE FROM disney_plus_titles
 
         """ ];
