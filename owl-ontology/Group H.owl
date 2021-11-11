@@ -112,7 +112,10 @@
         <DataProperty IRI="#country"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#data_added"/>
+        <DataProperty IRI="#date_addedToDisney"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date_addedToNetflix"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#description"/>
@@ -376,7 +379,11 @@
         <Class IRI="#Media"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#data_added"/>
+        <DataProperty IRI="#date_addedToDisney"/>
+        <Class IRI="#Media"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#date_addedToNetflix"/>
         <Class IRI="#Media"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -520,7 +527,11 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#data_added"/>
+        <DataProperty IRI="#date_addedToDisney"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date_addedToNetflix"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
