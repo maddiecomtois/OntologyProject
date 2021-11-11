@@ -22,7 +22,7 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate rr:type;
+        rr:predicate rdf:type;
         rr:objectMap [rr:template "http://www.example.org/entertainment/Movie"];
     ];
 
