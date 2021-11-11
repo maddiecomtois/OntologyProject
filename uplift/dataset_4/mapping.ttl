@@ -1,7 +1,8 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
-@prefix ex: <http://example.com/ns#>.
+@prefix ex: <http://www.example.org/entertainment/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rmlc: <http://www.oeg-upm.net/ns/rmlc#> .
  
 <#Dataset4TripleStore>
      a rr:TriplesMap;
@@ -46,8 +47,13 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:arating;
+        rr:predicate ex:imdbRating;
         rr:objectMap [ rr:column "IMDB" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:rottenTomatoesRating;
+        rr:objectMap [ rr:column "Rotten Tomatoes" ];
     ];
 
     rr:predicateObjectMap [
@@ -59,6 +65,6 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:listed_in;
+        rr:predicate ex:genres;
         rr:objectMap [ rr:column "GENRES" ];
     ].

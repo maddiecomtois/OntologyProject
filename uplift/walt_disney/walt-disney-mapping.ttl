@@ -1,5 +1,6 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix ex: <http://www.example.org/entertainment/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
  
 <#NetflixTripleStore>
@@ -54,4 +55,33 @@
     rr:predicateObjectMap [
         rr:predicate ex:duration;
         rr:objectMap [ rr:column "DURATION" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:language;
+        rr:objectMap [ rr:column "LANGUAGE" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:revenue;
+        rr:objectMap [ 
+            rr:column "Box office (float)";            
+            rr:datatype xsd:float
+        ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:budget;
+        rr:objectMap [ 
+            rr:column "Budget (float)" ;
+            rr:datatype xsd:float
+        ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:duration;
+        rr:objectMap [ 
+            rr:column "RUNTIME";
+            rr:datatype xsd:integer
+        ];
     ].
