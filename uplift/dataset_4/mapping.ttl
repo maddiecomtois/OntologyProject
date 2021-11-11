@@ -48,12 +48,17 @@
 
     rr:predicateObjectMap [
         rr:predicate ex:imdbRating;
-        rr:objectMap [ rr:column "IMDB" ];
+        rr:objectMap [ rr:column "IMDB";            
+        rr:datatype xsd:float
+        ];
     ];
 
     rr:predicateObjectMap [
         rr:predicate ex:rottenTomatoesRating;
-        rr:objectMap [ rr:column "Rotten Tomatoes" ];
+        rr:objectMap [ 
+            rr:column "Rotten Tomatoes";
+            rr:datatype xsd:float
+            ];
     ];
 
     rr:predicateObjectMap [
