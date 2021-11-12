@@ -1,0 +1,47 @@
+<http://www.example.org/entertainment/Movie/Bushwick>
+        a       <http://www.example.org/entertainment/Movie> ;
+        <http://www.example.org/entertainment/addedToNetflix>
+                "2017-11-24"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.example.org/entertainment/cast>
+                "Dave Bautista, Brittany Snow, Angelic Zambrana, Jeremie Harris, Myra Lucretia Taylor, Arturo Castro, Christian Navarro" ;
+        <http://www.example.org/entertainment/country>
+                "United States" ;
+        <http://www.example.org/entertainment/description>
+                "When their diverse neighborhood is besieged by a mysterious militia, a grad student and an ex-Marine become an unlikely team in a battle for survival." ;
+        <http://www.example.org/entertainment/director>
+                "Cary Murnion, Jonathan Milott" ;
+        <http://www.example.org/entertainment/duration>
+                "94 min" ;
+        <http://www.example.org/entertainment/genres>
+                "Action & Adventure, Independent Movies" ;
+        <http://www.example.org/entertainment/provider>
+                <http://dbpedia.org/resource/Netflix> ;
+        <http://www.example.org/entertainment/rating>
+                "TV-MA" ;
+        <http://www.example.org/entertainment/release_year>
+                "2017" ;
+        <http://www.example.org/entertainment/title>
+                "Bushwick" .
+
+<http://www.example.org/entertainment/TVShow/Little%20Singham>
+        a       <http://www.example.org/entertainment/TVShow> ;
+        <http://www.example.org/entertainment/addedToNetflix>
+                "2020-07-04"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://www.example.org/entertainment/cast>
+                "Swapnil Kumari, Jigna Bhardwaj, Sonal Kaushal, Neshma Chemburkar, Ganesh Divekar, Shaily Dube, Saumya Daan, Anamaya Verma, Parminder Ghumman, Pawan Kalra" ;
+        <http://www.example.org/entertainment/country>
+                "India" ;
+        <http://www.example.org/entertainment/description>
+                "A spinoff of Rohit Shetty's action franchise, this animated series follows brave kid cop Little Singham’s adventures as he defends his town from evil." ;
+        <http://www.example.org/entertainment/duration>
+                "2 Seasons" ;
+        <http://www.example.org/entertainment/genres>
+                "Kids' TV, TV Comedies" ;
+        <http://www.example.org/entertainment/provider>
+                <http://dbpedia.org/resource/Netflix> ;
+        <http://www.example.org/entertainment/rating>
+                "TV-Y7" ;
+        <http://www.example.org/entertainment/release_year>
+                "2020" ;
+        <http://www.example.org/entertainment/title>
+                "Little Singham" .
