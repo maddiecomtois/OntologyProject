@@ -85,6 +85,9 @@
         <DataProperty IRI="#adaptation_by"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#addedToNetflix"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#age"/>
     </Declaration>
     <Declaration>
@@ -110,12 +113,6 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#country"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#date_addedToDisney"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#date_addedToNetflix"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#description"/>
@@ -188,6 +185,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#writtenBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#addedToDisney+"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#Netflix"/>
@@ -397,6 +397,10 @@
         <Class IRI="#Movie"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#addedToNetflix"/>
+        <Class IRI="#Media"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#age"/>
         <Class IRI="#Movie"/>
     </DataPropertyDomain>
@@ -430,14 +434,6 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#country"/>
-        <Class IRI="#Media"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#date_addedToDisney"/>
-        <Class IRI="#Media"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#date_addedToNetflix"/>
         <Class IRI="#Media"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -535,6 +531,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#writtenBy"/>
         <Class IRI="#Movie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#addedToDisney+"/>
+        <Class IRI="#Media"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#ID"/>
@@ -545,6 +545,10 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#addedToNetflix"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#age"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -579,14 +583,6 @@
     <DataPropertyRange>
         <DataProperty IRI="#country"/>
         <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#date_addedToDisney"/>
-        <Datatype abbreviatedIRI="xsd:dateTime"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#date_addedToNetflix"/>
-        <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#description"/>
@@ -683,6 +679,10 @@
     <DataPropertyRange>
         <DataProperty IRI="#writtenBy"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#addedToDisney+"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -746,6 +746,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#addedToNetflix</IRI>
+        <Literal>addedToNetflix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#administers</IRI>
         <Literal>administers</Literal>
     </AnnotationAssertion>
@@ -803,16 +808,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#country</IRI>
         <Literal>country</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#date_addedToDisney</IRI>
-        <Literal>addedToDisney+</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#date_addedToNetflix</IRI>
-        <Literal>addedToNetflix</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -963,6 +958,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Disney+</IRI>
         <Literal>Disney+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#addedToDisney+</IRI>
+        <Literal>addedToDisney+</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
