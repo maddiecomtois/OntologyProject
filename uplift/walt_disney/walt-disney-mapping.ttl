@@ -53,11 +53,6 @@
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:duration;
-        rr:objectMap [ rr:column "DURATION" ];
-    ];
-
-    rr:predicateObjectMap [
         rr:predicate ex:language;
         rr:objectMap [ rr:column "LANGUAGE" ];
     ];

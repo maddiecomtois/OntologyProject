@@ -11,7 +11,7 @@
         <http://www.example.org/entertainment/director>
                 "Jack Clayton" ;
         <http://www.example.org/entertainment/duration>
-                "95 minutes" , 95 ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -34,7 +34,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                96 , "96 minutes" ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -59,7 +59,7 @@
         <http://www.example.org/entertainment/director>
                 "Bob Hathcock" ;
         <http://www.example.org/entertainment/duration>
-                "74 minutes" , 74 ;
+                74 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -82,7 +82,7 @@
         <http://www.example.org/entertainment/director>
                 "Anurag Basu" ;
         <http://www.example.org/entertainment/duration>
-                162 , "162 minutes" ;
+                162 ;
         <http://www.example.org/entertainment/language>
                 "Hindi" ;
         <http://www.example.org/entertainment/provider>
@@ -105,7 +105,7 @@
         <http://www.example.org/entertainment/director>
                 "Jay Russell" ;
         <http://www.example.org/entertainment/duration>
-                "96 minutes" , 96 ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -130,7 +130,7 @@
         <http://www.example.org/entertainment/director>
                 "Ericson Core" ;
         <http://www.example.org/entertainment/duration>
-                104 , "104 minutes" ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -151,7 +151,7 @@
         <http://www.example.org/entertainment/director>
                 "Xavier Koller" ;
         <http://www.example.org/entertainment/duration>
-                102 , "102 minutes" ;
+                102 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -176,7 +176,7 @@
         <http://www.example.org/entertainment/director>
                 "['Chris Williams', 'Byron Howard']" ;
         <http://www.example.org/entertainment/duration>
-                96 , "96 minutes" ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -199,7 +199,7 @@
         <http://www.example.org/entertainment/director>
                 "John Pasquin" ;
         <http://www.example.org/entertainment/duration>
-                105 , "105 minutes" ;
+                105 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -224,7 +224,7 @@
         <http://www.example.org/entertainment/director>
                 "Craig Gillespie" ;
         <http://www.example.org/entertainment/duration>
-                134 , "134 minutes" ;
+                134 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -247,7 +247,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                "93 minutes" , 93 ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -272,7 +272,7 @@
         <http://www.example.org/entertainment/director>
                 "Andy Fickman" ;
         <http://www.example.org/entertainment/duration>
-                98 , "98 minutes" ;
+                98 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -295,7 +295,7 @@
         <http://www.example.org/entertainment/director>
                 "Byron Paul" ;
         <http://www.example.org/entertainment/duration>
-                "110 min." , 110 ;
+                110 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -320,7 +320,7 @@
         <http://www.example.org/entertainment/director>
                 "['Jack Kinney', 'Clyde Geronimi', 'Hamilton Luske', 'Joshua Meador', 'Robert Cormack']" ;
         <http://www.example.org/entertainment/duration>
-                "75 minutes" , 75 ;
+                75 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -345,7 +345,7 @@
         <http://www.example.org/entertainment/director>
                 "['Aaron Blaise', 'Robert Walker']" ;
         <http://www.example.org/entertainment/duration>
-                85 , "85 minutes" ;
+                85 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -368,7 +368,7 @@
         <http://www.example.org/entertainment/director>
                 "Gary Chapman" ;
         <http://www.example.org/entertainment/duration>
-                76 , "76 minutes" ;
+                76 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -393,7 +393,7 @@
         <http://www.example.org/entertainment/director>
                 "['Will Finn', 'John Sanford']" ;
         <http://www.example.org/entertainment/duration>
-                "76 minutes" , 76 ;
+                76 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -418,7 +418,7 @@
         <http://www.example.org/entertainment/director>
                 "Charles Jarrott" ;
         <http://www.example.org/entertainment/duration>
-                "97 minutes" , 97 ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -443,7 +443,7 @@
         <http://www.example.org/entertainment/director>
                 "Mark Dindal" ;
         <http://www.example.org/entertainment/duration>
-                78 , "78 minutes" ;
+                78 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -466,7 +466,7 @@
         <http://www.example.org/entertainment/director>
                 "['Jack Couffer', 'Don Haldane']" ;
         <http://www.example.org/entertainment/duration>
-                74 , "74 minutes" ;
+                74 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -500,7 +500,7 @@
         <http://www.example.org/entertainment/director>
                 "Ken Olin" ;
         <http://www.example.org/entertainment/duration>
-                102 , "102 minutes" ;
+                102 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -523,7 +523,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Butler" ;
         <http://www.example.org/entertainment/duration>
-                96 , "96 minutes" ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -546,7 +546,7 @@
         <http://www.example.org/entertainment/director>
                 "Tom McCarthy" ;
         <http://www.example.org/entertainment/duration>
-                99 , "99 minutes" ;
+                99 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -567,7 +567,7 @@
         <http://www.example.org/entertainment/director>
                 "William Beaudine" ;
         <http://www.example.org/entertainment/duration>
-                90 , "90 min." ;
+                90 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -590,7 +590,7 @@
         <http://www.example.org/entertainment/director>
                 "Arthur Hiller" ;
         <http://www.example.org/entertainment/duration>
-                118 , "118 minutes" ;
+                118 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -609,7 +609,7 @@
         <http://www.example.org/entertainment/director>
                 "Leslie Iwerks" ;
         <http://www.example.org/entertainment/duration>
-                "87 minutes" , 87 ;
+                87 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -630,7 +630,7 @@
         <http://www.example.org/entertainment/director>
                 "Henry Selick" ;
         <http://www.example.org/entertainment/duration>
-                79 , "79 minutes" ;
+                79 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -653,7 +653,7 @@
         <http://www.example.org/entertainment/director>
                 "Lena Khan" ;
         <http://www.example.org/entertainment/duration>
-                95 , "95 minutes" ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -676,7 +676,7 @@
         <http://www.example.org/entertainment/director>
                 "['Stephen Anderson', 'Don Hall']" ;
         <http://www.example.org/entertainment/duration>
-                63 , "63 minutes" ;
+                63 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -699,7 +699,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Scheerer" ;
         <http://www.example.org/entertainment/duration>
-                "93 minutes" , 93 ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -722,7 +722,7 @@
         <http://www.example.org/entertainment/director>
                 "James Neilson" ;
         <http://www.example.org/entertainment/duration>
-                98 , "98 minutes" ;
+                98 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -747,7 +747,7 @@
         <http://www.example.org/entertainment/director>
                 "['Ben Sharpsteen', 'Norman Ferguson', 'Wilfred Jackson', 'Bill Roberts', 'Jack Kinney', 'Samuel Armstrong']" , "Tim Burton" ;
         <http://www.example.org/entertainment/duration>
-                "64 minutes" , "112 minutes" , 64 , 112 ;
+                64 , 112 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -772,7 +772,7 @@
         <http://www.example.org/entertainment/director>
                 "Brad Bird" ;
         <http://www.example.org/entertainment/duration>
-                111 , "111 minutes" ;
+                111 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -795,7 +795,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                "113 mins." , 113 ;
+                113 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -816,7 +816,7 @@
         <http://www.example.org/entertainment/director>
                 "James Algar" ;
         <http://www.example.org/entertainment/duration>
-                75 , "75 minutes" ;
+                75 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -841,7 +841,7 @@
         <http://www.example.org/entertainment/director>
                 "Bruce Hendricks" ;
         <http://www.example.org/entertainment/duration>
-                "74 minutes" , 74 ;
+                74 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -864,7 +864,7 @@
         <http://www.example.org/entertainment/director>
                 "Julia Hart" ;
         <http://www.example.org/entertainment/duration>
-                107 , "107 minutes" ;
+                107 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -900,7 +900,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Butler" ;
         <http://www.example.org/entertainment/duration>
-                "113 minutes" , 113 ;
+                113 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -923,7 +923,7 @@
         <http://www.example.org/entertainment/director>
                 "Kevin Lima" ;
         <http://www.example.org/entertainment/duration>
-                107 , "107 minutes" ;
+                107 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -948,7 +948,7 @@
         <http://www.example.org/entertainment/director>
                 "['Ron Clements', 'John Musker']" ;
         <http://www.example.org/entertainment/duration>
-                "93 minutes" , 93 ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -971,7 +971,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Butler" ;
         <http://www.example.org/entertainment/duration>
-                88 , "88 minutes" ;
+                88 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -996,7 +996,7 @@
         <http://www.example.org/entertainment/director>
                 "Charlie Bean" , "['Clyde Geronimi', 'Wilfred Jackson', 'Hamilton Luske']" ;
         <http://www.example.org/entertainment/duration>
-                "76 minutes" , "104 minutes" , 104 , 76 ;
+                104 , 76 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1019,7 +1019,7 @@
         <http://www.example.org/entertainment/director>
                 "Habib Faisal" ;
         <http://www.example.org/entertainment/duration>
-                "108 minutes" , 108 ;
+                108 ;
         <http://www.example.org/entertainment/language>
                 "Hindi" ;
         <http://www.example.org/entertainment/provider>
@@ -1042,7 +1042,7 @@
         <http://www.example.org/entertainment/director>
                 "['Gary Trousdale', 'Kirk Wise']" , "Bill Condon" ;
         <http://www.example.org/entertainment/duration>
-                "129 minutes" , 84 , 129 , "84 minutes" ;
+                84 , 129 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1067,7 +1067,7 @@
         <http://www.example.org/entertainment/director>
                 "Frank Coraci" ;
         <http://www.example.org/entertainment/duration>
-                120 , "120 minutes" ;
+                120 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -1090,7 +1090,7 @@
         <http://www.example.org/entertainment/director>
                 "Jon Turteltaub" ;
         <http://www.example.org/entertainment/duration>
-                109 , "109 minutes" ;
+                109 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1113,7 +1113,7 @@
         <http://www.example.org/entertainment/director>
                 "James Algar" ;
         <http://www.example.org/entertainment/duration>
-                "69 minutes" , 69 ;
+                69 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1138,7 +1138,7 @@
         <http://www.example.org/entertainment/director>
                 "James Bobin" ;
         <http://www.example.org/entertainment/duration>
-                "107 minutes" , 107 ;
+                107 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1161,7 +1161,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                "115 minutes" , 115 ;
+                115 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1182,7 +1182,7 @@
         <http://www.example.org/entertainment/director>
                 "Sam Weisman" ;
         <http://www.example.org/entertainment/duration>
-                106 , "106 minutes" ;
+                106 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1205,7 +1205,7 @@
         <http://www.example.org/entertainment/director>
                 "Winston Hibler" ;
         <http://www.example.org/entertainment/duration>
-                75 , "75 minutes" ;
+                75 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1228,7 +1228,7 @@
         <http://www.example.org/entertainment/director>
                 "Adam Shankman" ;
         <http://www.example.org/entertainment/duration>
-                "95 minutes" , 95 ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1253,7 +1253,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Zemeckis" , "['Ben Sharpsteen', 'Hamilton Luske', 'Bill Roberts', 'Norman Ferguson', 'Jack Kinney', 'Wilfred Jackson', 'T. Hee']" ;
         <http://www.example.org/entertainment/duration>
-                88 , "88 minutes" ;
+                88 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1278,7 +1278,7 @@
         <http://www.example.org/entertainment/director>
                 "['Don Hall', 'Chris Williams']" ;
         <http://www.example.org/entertainment/duration>
-                "102 minutes" , 102 ;
+                102 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1301,7 +1301,7 @@
         <http://www.example.org/entertainment/director>
                 "John Hough" ;
         <http://www.example.org/entertainment/duration>
-                "94 minutes" , 94 ;
+                94 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1322,7 +1322,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                89 , "89 min." ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1345,7 +1345,7 @@
         <http://www.example.org/entertainment/director>
                 "Francis Glebas" ;
         <http://www.example.org/entertainment/duration>
-                75 , "75 minutes" ;
+                75 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1370,7 +1370,7 @@
         <http://www.example.org/entertainment/director>
                 "Miguel Arteta" ;
         <http://www.example.org/entertainment/duration>
-                81 , "81 minutes" ;
+                81 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1393,7 +1393,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                91 , "91 minutes" ;
+                91 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1416,7 +1416,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Butler" ;
         <http://www.example.org/entertainment/duration>
-                90 , "90 minutes" ;
+                90 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1439,7 +1439,7 @@
         <http://www.example.org/entertainment/director>
                 "Mark Waters" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1460,7 +1460,7 @@
         <http://www.example.org/entertainment/director>
                 "['Beyoncé', 'Co-director', 'Kwasi Fordjour', 'Directors', 'Emmanuel Adjei', 'Blitz Bazawule', 'Ibra Ake', 'Jenn Nkiru', 'Jake Nava', 'Pierre Debusschere', 'Dikayl Rimmasch', 'Dafe Oboro']" ;
         <http://www.example.org/entertainment/duration>
-                "85 minutes" , 85 ;
+                85 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1481,7 +1481,7 @@
         <http://www.example.org/entertainment/director>
                 "Bruce Hendricks" ;
         <http://www.example.org/entertainment/duration>
-                76 , "['76 minutes', '85 minutes']" ;
+                76 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1506,7 +1506,7 @@
         <http://www.example.org/entertainment/director>
                 "Jon Turteltaub" ;
         <http://www.example.org/entertainment/duration>
-                131 , "131 minutes" ;
+                131 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1531,7 +1531,7 @@
         <http://www.example.org/entertainment/director>
                 "Adam Shankman" ;
         <http://www.example.org/entertainment/duration>
-                "99 minutes" , 99 ;
+                99 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1556,7 +1556,7 @@
         <http://www.example.org/entertainment/director>
                 "Randal Kleiser" ;
         <http://www.example.org/entertainment/duration>
-                90 , "90 minutes" ;
+                90 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1581,7 +1581,7 @@
         <http://www.example.org/entertainment/director>
                 "Garry Marshall" ;
         <http://www.example.org/entertainment/duration>
-                115 , "115 minutes" ;
+                115 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1604,7 +1604,7 @@
         <http://www.example.org/entertainment/director>
                 "James Neilson" ;
         <http://www.example.org/entertainment/duration>
-                "110 minutes" , 110 ;
+                110 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1629,7 +1629,7 @@
         <http://www.example.org/entertainment/director>
                 "David Lowery" , "Don Chaffey" ;
         <http://www.example.org/entertainment/duration>
-                "128 minutes" , "103 minutes" , 128 , 103 ;
+                128 , 103 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1654,7 +1654,7 @@
         <http://www.example.org/entertainment/director>
                 "Klay Hall" ;
         <http://www.example.org/entertainment/duration>
-                "92 minutes" , 92 ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1677,7 +1677,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                "93 minutes" , 93 ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1700,7 +1700,7 @@
         <http://www.example.org/entertainment/director>
                 "Herschel Daugherty" ;
         <http://www.example.org/entertainment/duration>
-                83 , "83 minutes" ;
+                83 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1723,7 +1723,7 @@
         <http://www.example.org/entertainment/director>
                 "Stuart Gillard" ;
         <http://www.example.org/entertainment/duration>
-                "95 minutes" , 95 ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1748,7 +1748,7 @@
         <http://www.example.org/entertainment/director>
                 "Joe Nussbaum" ;
         <http://www.example.org/entertainment/duration>
-                104 , "104 minutes" ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1773,7 +1773,7 @@
         <http://www.example.org/entertainment/director>
                 "Craig Gillespie" ;
         <http://www.example.org/entertainment/duration>
-                "124 minutes" , 124 ;
+                124 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -1796,7 +1796,7 @@
         <http://www.example.org/entertainment/director>
                 "Peter Chelsom" ;
         <http://www.example.org/entertainment/duration>
-                "97 minutes" , 97 ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1821,7 +1821,7 @@
         <http://www.example.org/entertainment/director>
                 "Mark Dindal" ;
         <http://www.example.org/entertainment/duration>
-                "81 minutes" , 81 ;
+                81 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1844,7 +1844,7 @@
         <http://www.example.org/entertainment/director>
                 "Charles Haid" ;
         <http://www.example.org/entertainment/duration>
-                "108 minutes" , 108 ;
+                108 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1867,7 +1867,7 @@
         <http://www.example.org/entertainment/director>
                 "George Butler" ;
         <http://www.example.org/entertainment/duration>
-                "40 minutes" , 40 ;
+                40 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1892,7 +1892,7 @@
         <http://www.example.org/entertainment/director>
                 "Sara Sugarman" ;
         <http://www.example.org/entertainment/duration>
-                89 , "89 minutes" ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1917,7 +1917,7 @@
         <http://www.example.org/entertainment/director>
                 "Hoyt H. Yeatman Jr." ;
         <http://www.example.org/entertainment/duration>
-                "90 minutes" , 90 ;
+                90 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1942,7 +1942,7 @@
         <http://www.example.org/entertainment/director>
                 "Pete Docter" ;
         <http://www.example.org/entertainment/duration>
-                "92 minutes" , 92 ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -1990,7 +1990,7 @@
         <http://www.example.org/entertainment/director>
                 "['Chris Buck', 'Jennifer Lee']" ;
         <http://www.example.org/entertainment/duration>
-                103 , "103 minutes" ;
+                103 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2015,7 +2015,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Zemeckis" ;
         <http://www.example.org/entertainment/duration>
-                96 , "96 minutes" ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2038,7 +2038,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                "92 minutes" , 92 ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2063,7 +2063,7 @@
         <http://www.example.org/entertainment/director>
                 "Gore Verbinski" ;
         <http://www.example.org/entertainment/duration>
-                "167 minutes" , 167 ;
+                167 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2105,7 +2105,7 @@
         <http://www.example.org/entertainment/director>
                 "George Scribner" ;
         <http://www.example.org/entertainment/duration>
-                74 , "74 minutes" ;
+                74 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2130,7 +2130,7 @@
         <http://www.example.org/entertainment/director>
                 "['Live action:', 'Harve Foster', 'Animation:', 'Wilfred Jackson']" ;
         <http://www.example.org/entertainment/duration>
-                94 , "94 minutes" ;
+                94 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2155,7 +2155,7 @@
         <http://www.example.org/entertainment/director>
                 "Lee Unkrich" ;
         <http://www.example.org/entertainment/duration>
-                105 , "105 minutes" ;
+                105 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2178,7 +2178,7 @@
         <http://www.example.org/entertainment/director>
                 "Steven Spielberg" ;
         <http://www.example.org/entertainment/duration>
-                118 , "118 minutes" ;
+                118 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2203,7 +2203,7 @@
         <http://www.example.org/entertainment/director>
                 "['Mike Gabriel', 'Eric Goldberg']" ;
         <http://www.example.org/entertainment/duration>
-                "81 minutes" , 81 ;
+                81 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2228,7 +2228,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                80 , "80 minutes" ;
+                80 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2249,7 +2249,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Foster" ;
         <http://www.example.org/entertainment/duration>
-                "92 minutes" , 92 ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2274,7 +2274,7 @@
         <http://www.example.org/entertainment/director>
                 "['Ron Clements', 'John Musker']" ;
         <http://www.example.org/entertainment/duration>
-                "97 minutes" , 97 ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2299,7 +2299,7 @@
         <http://www.example.org/entertainment/director>
                 "Andrew Davis" ;
         <http://www.example.org/entertainment/duration>
-                117 , "117 minutes" ;
+                117 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2324,7 +2324,7 @@
         <http://www.example.org/entertainment/director>
                 "['Joachim Rønning', 'Espen Sandberg']" ;
         <http://www.example.org/entertainment/duration>
-                "129 minutes" , 129 ;
+                129 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2347,7 +2347,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                91 , "91 minutes" ;
+                91 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2372,7 +2372,7 @@
         <http://www.example.org/entertainment/director>
                 "['Ralph Zondag', 'Eric Leighton']" ;
         <http://www.example.org/entertainment/duration>
-                82 , "82 minutes" ;
+                82 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2397,7 +2397,7 @@
         <http://www.example.org/entertainment/director>
                 "Rob Marshall" ;
         <http://www.example.org/entertainment/duration>
-                137 , "137 minutes" ;
+                137 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2422,7 +2422,7 @@
         <http://www.example.org/entertainment/director>
                 "Wolfgang Reitherman" ;
         <http://www.example.org/entertainment/duration>
-                79 , "79 minutes" ;
+                79 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2447,7 +2447,7 @@
         <http://www.example.org/entertainment/director>
                 "Walt Becker" ;
         <http://www.example.org/entertainment/duration>
-                88 , "88 minutes" ;
+                88 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2472,7 +2472,7 @@
         <http://www.example.org/entertainment/director>
                 "John Lasseter" ;
         <http://www.example.org/entertainment/duration>
-                106 , "106 minutes" ;
+                106 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2497,7 +2497,7 @@
         <http://www.example.org/entertainment/director>
                 "Mark Waters" ;
         <http://www.example.org/entertainment/duration>
-                97 , "97 minutes" ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2522,7 +2522,7 @@
         <http://www.example.org/entertainment/director>
                 "Jeff Blyth" ;
         <http://www.example.org/entertainment/duration>
-                "84 minutes" , 84 ;
+                84 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2543,7 +2543,7 @@
         <http://www.example.org/entertainment/director>
                 "Juan Pablo Buscarini" ;
         <http://www.example.org/entertainment/duration>
-                98 , "98 minutes" ;
+                98 ;
         <http://www.example.org/entertainment/language>
                 "Spanish" ;
         <http://www.example.org/entertainment/provider>
@@ -2566,7 +2566,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                "93 minutes" , 93 ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2587,7 +2587,7 @@
         <http://www.example.org/entertainment/director>
                 "John Hough" ;
         <http://www.example.org/entertainment/duration>
-                97 , "97 min." ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2610,7 +2610,7 @@
         <http://www.example.org/entertainment/director>
                 "['Jack Kinney (animation)', 'Bill Roberts (animation)', 'Hamilton Luske (animation)', 'William Morgan']" ;
         <http://www.example.org/entertainment/duration>
-                73 , "73 minutes" ;
+                73 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2633,7 +2633,7 @@
         <http://www.example.org/entertainment/director>
                 "Hayao Miyazaki" ;
         <http://www.example.org/entertainment/duration>
-                "101 minutes" , 101 ;
+                101 ;
         <http://www.example.org/entertainment/language>
                 "Japanese" ;
         <http://www.example.org/entertainment/provider>
@@ -2656,7 +2656,7 @@
         <http://www.example.org/entertainment/director>
                 "Jaume Collet-Serra" ;
         <http://www.example.org/entertainment/duration>
-                127 , "127 minutes" ;
+                127 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2677,7 +2677,7 @@
         <http://www.example.org/entertainment/director>
                 "Arnab Chaudhuri" ;
         <http://www.example.org/entertainment/duration>
-                96 , "96 minutes" ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "Hindi" ;
         <http://www.example.org/entertainment/provider>
@@ -2698,7 +2698,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                88 , "88 minutes" ;
+                88 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2719,7 +2719,7 @@
         <http://www.example.org/entertainment/director>
                 "David Lynch" ;
         <http://www.example.org/entertainment/duration>
-                "112 minutes" , 112 ;
+                112 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2742,7 +2742,7 @@
         <http://www.example.org/entertainment/director>
                 "Joe Camp" ;
         <http://www.example.org/entertainment/duration>
-                "89 minutes" , 89 ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2767,7 +2767,7 @@
         <http://www.example.org/entertainment/director>
                 "Gary Nelson" ;
         <http://www.example.org/entertainment/duration>
-                95 , "95 minutes" ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2790,7 +2790,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2813,7 +2813,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                "106 minutes" , 106 ;
+                106 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2838,7 +2838,7 @@
         <http://www.example.org/entertainment/director>
                 "Joe Johnston" ;
         <http://www.example.org/entertainment/duration>
-                93 , "93 minutes" ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2863,7 +2863,7 @@
         <http://www.example.org/entertainment/director>
                 "Frederik Du Chau" ;
         <http://www.example.org/entertainment/duration>
-                82 , "82 minutes" ;
+                82 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2886,7 +2886,7 @@
         <http://www.example.org/entertainment/director>
                 "Bruce Bilson" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2909,7 +2909,7 @@
         <http://www.example.org/entertainment/director>
                 "Frank Marshall" ;
         <http://www.example.org/entertainment/duration>
-                120 , "120 minutes" ;
+                120 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2934,7 +2934,7 @@
         <http://www.example.org/entertainment/director>
                 "Michael Lembeck" ;
         <http://www.example.org/entertainment/duration>
-                104 , "104 minutes" ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2959,7 +2959,7 @@
         <http://www.example.org/entertainment/director>
                 "Andy Fickman" ;
         <http://www.example.org/entertainment/duration>
-                110 , "110 minutes" ;
+                110 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -2984,7 +2984,7 @@
         <http://www.example.org/entertainment/director>
                 "John Lee Hancock" ;
         <http://www.example.org/entertainment/duration>
-                128 , "128 minutes" ;
+                128 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3009,7 +3009,7 @@
         <http://www.example.org/entertainment/director>
                 "Kenneth Branagh" , "['Clyde Geronimi', 'Hamilton Luske', 'Wilfred Jackson']" ;
         <http://www.example.org/entertainment/duration>
-                "106 minutes" , "74 minutes" , 74 , 106 ;
+                74 , 106 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3034,7 +3034,7 @@
         <http://www.example.org/entertainment/director>
                 "['Samuel Armstrong', 'James Algar', 'Bill Roberts', 'Paul Satterfield', 'Ben Sharpsteen', 'David D. Hand', 'Hamilton Luske', 'Jim Handley', 'Ford Beebe', 'T. Hee', 'Norman Ferguson', 'Wilfred Jackson']" ;
         <http://www.example.org/entertainment/duration>
-                126 , "126 minutes" ;
+                126 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3057,7 +3057,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                "116 minutes" , 116 ;
+                116 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3082,7 +3082,7 @@
         <http://www.example.org/entertainment/director>
                 "Tim Hunter" ;
         <http://www.example.org/entertainment/duration>
-                103 , "103 minutes" ;
+                103 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3105,7 +3105,7 @@
         <http://www.example.org/entertainment/director>
                 "Hayao Miyazaki" ;
         <http://www.example.org/entertainment/duration>
-                "119 minutes" , 119 ;
+                119 ;
         <http://www.example.org/entertainment/language>
                 "Japanese" ;
         <http://www.example.org/entertainment/provider>
@@ -3128,7 +3128,7 @@
         <http://www.example.org/entertainment/director>
                 "Bobs Gannaway" ;
         <http://www.example.org/entertainment/duration>
-                "84 minutes" , 84 ;
+                84 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3153,7 +3153,7 @@
         <http://www.example.org/entertainment/director>
                 "James Neilson" ;
         <http://www.example.org/entertainment/duration>
-                "130 minutes" , 130 ;
+                130 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3176,7 +3176,7 @@
         <http://www.example.org/entertainment/director>
                 "Peter Tewksbury" ;
         <http://www.example.org/entertainment/duration>
-                92 , "92 minutes" ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3199,7 +3199,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                "112 minutes" , 112 ;
+                112 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3222,7 +3222,7 @@
         <http://www.example.org/entertainment/director>
                 "Gore Verbinski" ;
         <http://www.example.org/entertainment/duration>
-                150 , "150 minutes" ;
+                150 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3243,7 +3243,7 @@
         <http://www.example.org/entertainment/director>
                 "Phillip Borsos" ;
         <http://www.example.org/entertainment/duration>
-                89 , "89 minutes" ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3283,7 +3283,7 @@
         <http://www.example.org/entertainment/director>
                 "James Neilson" ;
         <http://www.example.org/entertainment/duration>
-                118 , "118 minutes" ;
+                118 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3308,7 +3308,7 @@
         <http://www.example.org/entertainment/director>
                 "['Animated sequences:', 'James Algar', 'Clyde Geronimi', 'Jack Kinney', 'de Seversky scenes:', 'H.C. Potter']" ;
         <http://www.example.org/entertainment/duration>
-                "70 min" , 70 ;
+                70 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3333,7 +3333,7 @@
         <http://www.example.org/entertainment/director>
                 "Peter Hedges" ;
         <http://www.example.org/entertainment/duration>
-                104 , "104 minutes" ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3356,7 +3356,7 @@
         <http://www.example.org/entertainment/director>
                 "Michael Gottlieb" ;
         <http://www.example.org/entertainment/duration>
-                89 , "89 minutes" ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3381,7 +3381,7 @@
         <http://www.example.org/entertainment/director>
                 "Pete Docter" ;
         <http://www.example.org/entertainment/duration>
-                95 , "95 minutes" ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3406,7 +3406,7 @@
         <http://www.example.org/entertainment/director>
                 "Raja Gosnell" ;
         <http://www.example.org/entertainment/duration>
-                "91 minutes" , 91 ;
+                91 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3431,7 +3431,7 @@
         <http://www.example.org/entertainment/director>
                 "John Lasseter" ;
         <http://www.example.org/entertainment/duration>
-                95 , "95 minutes" ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3456,7 +3456,7 @@
         <http://www.example.org/entertainment/director>
                 "Jeremiah S. Chechik" ;
         <http://www.example.org/entertainment/duration>
-                98 , "98 minutes" ;
+                98 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3481,7 +3481,7 @@
         <http://www.example.org/entertainment/director>
                 "['Jack Kinney', 'Clyde Geronimi', 'Hamilton Luske', 'Wilfred Jackson']" ;
         <http://www.example.org/entertainment/duration>
-                75 , "75 minutes" ;
+                75 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3500,7 +3500,7 @@
         <http://www.example.org/entertainment/country>
                 "United States" ;
         <http://www.example.org/entertainment/duration>
-                41 , "41 minutes (74 minutes 1966 release)" ;
+                41 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3525,7 +3525,7 @@
         <http://www.example.org/entertainment/director>
                 "['John Lasseter']" ;
         <http://www.example.org/entertainment/duration>
-                "92 minutes" , 92 ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3548,7 +3548,7 @@
         <http://www.example.org/entertainment/director>
                 "['Jack Kinney', 'Clyde Geronimi', 'James Algar', 'Ben Sharpsteen (production supervisor)']" ;
         <http://www.example.org/entertainment/duration>
-                "68 minutes" , 68 ;
+                68 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3571,7 +3571,7 @@
         <http://www.example.org/entertainment/director>
                 "Michael O'Herlihy" ;
         <http://www.example.org/entertainment/duration>
-                "112 minutes" , 112 ;
+                112 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3596,7 +3596,7 @@
         <http://www.example.org/entertainment/director>
                 "Jon Turteltaub" ;
         <http://www.example.org/entertainment/duration>
-                "98 minutes" , 98 ;
+                98 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3621,7 +3621,7 @@
         <http://www.example.org/entertainment/director>
                 "['Clyde Geronimi', 'Hamilton Luske', 'Wolfgang Reitherman']" ;
         <http://www.example.org/entertainment/duration>
-                "79 minutes" , 79 ;
+                79 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3642,7 +3642,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3680,7 +3680,7 @@
         <http://www.example.org/entertainment/director>
                 "David R. Ellis" ;
         <http://www.example.org/entertainment/duration>
-                89 , "89 minutes" ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3703,7 +3703,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                83 , "83 minutes" ;
+                83 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3728,7 +3728,7 @@
         <http://www.example.org/entertainment/director>
                 "['Roger Allers', 'Rob Minkoff']" , "Jon Favreau" ;
         <http://www.example.org/entertainment/duration>
-                "118 minutes" , 118 , 88 , "88 minutes" ;
+                118 , 88 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3751,7 +3751,7 @@
         <http://www.example.org/entertainment/director>
                 "Remo D'Souza" ;
         <http://www.example.org/entertainment/duration>
-                "154 minutes" , 154 ;
+                154 ;
         <http://www.example.org/entertainment/language>
                 "Hindi" ;
         <http://www.example.org/entertainment/provider>
@@ -3774,7 +3774,7 @@
         <http://www.example.org/entertainment/director>
                 "James Bobin" ;
         <http://www.example.org/entertainment/duration>
-                "113 minutes" , 113 ;
+                113 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3799,7 +3799,7 @@
         <http://www.example.org/entertainment/director>
                 "Angela Robinson" ;
         <http://www.example.org/entertainment/duration>
-                101 , "101 minutes" ;
+                101 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3824,7 +3824,7 @@
         <http://www.example.org/entertainment/director>
                 "Wolfgang Reitherman" ;
         <http://www.example.org/entertainment/duration>
-                83 , "83 minutes" ;
+                83 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3849,7 +3849,7 @@
         <http://www.example.org/entertainment/director>
                 "['Wolfgang Reitherman', 'John Lounsbery', 'Art Stevens']" ;
         <http://www.example.org/entertainment/duration>
-                77 , "77 minutes" ;
+                77 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3872,7 +3872,7 @@
         <http://www.example.org/entertainment/director>
                 "Nitesh Tiwari" ;
         <http://www.example.org/entertainment/duration>
-                "161 minutes" , 161 ;
+                161 ;
         <http://www.example.org/entertainment/language>
                 "Hindi" ;
         <http://www.example.org/entertainment/provider>
@@ -3895,7 +3895,7 @@
         <http://www.example.org/entertainment/director>
                 "Les Mayfield" ;
         <http://www.example.org/entertainment/duration>
-                "93 minutes" , 93 ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3920,7 +3920,7 @@
         <http://www.example.org/entertainment/director>
                 "James Cameron" ;
         <http://www.example.org/entertainment/duration>
-                61 , "61 minutes" ;
+                61 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3943,7 +3943,7 @@
         <http://www.example.org/entertainment/director>
                 "Satyajit Bhatkal" ;
         <http://www.example.org/entertainment/duration>
-                "109 minutes" , 109 ;
+                109 ;
         <http://www.example.org/entertainment/language>
                 "Hindi" ;
         <http://www.example.org/entertainment/provider>
@@ -3964,7 +3964,7 @@
         <http://www.example.org/entertainment/director>
                 "Reginald Hudlin" ;
         <http://www.example.org/entertainment/duration>
-                "119 minutes" , 119 ;
+                119 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -3983,7 +3983,7 @@
         <http://www.example.org/entertainment/director>
                 "Don Chaffey" ;
         <http://www.example.org/entertainment/duration>
-                97 , "97 minutes" ;
+                97 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -4006,7 +4006,7 @@
         <http://www.example.org/entertainment/director>
                 "Maurice Joyce" ;
         <http://www.example.org/entertainment/duration>
-                83 , "83 minutes" ;
+                83 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4027,7 +4027,7 @@
         <http://www.example.org/entertainment/director>
                 "Lu Chuan" ;
         <http://www.example.org/entertainment/duration>
-                "76 minutes" , 76 ;
+                76 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -4048,7 +4048,7 @@
         <http://www.example.org/entertainment/director>
                 "Walter Murch" ;
         <http://www.example.org/entertainment/duration>
-                113 , "113 minutes" ;
+                113 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4073,7 +4073,7 @@
         <http://www.example.org/entertainment/director>
                 "['Don Hahn', 'Pixote Hunt', 'Hendel Butoy', 'Eric Goldberg', 'James Algar', 'Francis Glebas', 'Paul and Gaëtan Brizzi']" ;
         <http://www.example.org/entertainment/duration>
-                74 , "74 minutes" ;
+                74 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4098,7 +4098,7 @@
         <http://www.example.org/entertainment/director>
                 "Dmitriy Dyachenko" ;
         <http://www.example.org/entertainment/duration>
-                "114 minutes" , 114 ;
+                114 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -4121,7 +4121,7 @@
         <http://www.example.org/entertainment/director>
                 "Stanley Tong" ;
         <http://www.example.org/entertainment/duration>
-                87 , "87 minutes" ;
+                87 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4144,7 +4144,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                "101 minutes" , 101 ;
+                101 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4167,7 +4167,7 @@
         <http://www.example.org/entertainment/director>
                 "Andrew Stanton" ;
         <http://www.example.org/entertainment/duration>
-                "97 minutes" , 97 ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4190,7 +4190,7 @@
         <http://www.example.org/entertainment/director>
                 "Stephen Herek" ;
         <http://www.example.org/entertainment/duration>
-                105 , "105 minutes" ;
+                105 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4215,7 +4215,7 @@
         <http://www.example.org/entertainment/director>
                 "Dereck Joubert" ;
         <http://www.example.org/entertainment/duration>
-                72 , "72 minutes" ;
+                72 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4238,7 +4238,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                "88 minutes" , 88 ;
+                88 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4259,7 +4259,7 @@
         <http://www.example.org/entertainment/director>
                 "James Algar" ;
         <http://www.example.org/entertainment/duration>
-                70 , "70 minutes" ;
+                70 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4278,7 +4278,7 @@
         <http://www.example.org/entertainment/director>
                 "['Alastair Fothergill', 'Mark Linfield']" ;
         <http://www.example.org/entertainment/duration>
-                "77 minutes" , 77 ;
+                77 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -4301,7 +4301,7 @@
         <http://www.example.org/entertainment/director>
                 "Kenneth Branagh" ;
         <http://www.example.org/entertainment/duration>
-                "95 minutes" , 95 ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4324,7 +4324,7 @@
         <http://www.example.org/entertainment/director>
                 "James Orr" ;
         <http://www.example.org/entertainment/duration>
-                96 , "96 minutes" ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4349,7 +4349,7 @@
         <http://www.example.org/entertainment/director>
                 "Gorō Miyazaki" ;
         <http://www.example.org/entertainment/duration>
-                "115 minutes" , 115 ;
+                115 ;
         <http://www.example.org/entertainment/language>
                 "Japanese" ;
         <http://www.example.org/entertainment/provider>
@@ -4372,7 +4372,7 @@
         <http://www.example.org/entertainment/director>
                 "Frank Nissen" ;
         <http://www.example.org/entertainment/duration>
-                "68 minutes" , 68 ;
+                68 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4393,7 +4393,7 @@
         <http://www.example.org/entertainment/director>
                 "['N. Paul Kenworthy', 'Ralph Wright']" ;
         <http://www.example.org/entertainment/duration>
-                75 , "75 minutes" ;
+                75 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4418,7 +4418,7 @@
         <http://www.example.org/entertainment/director>
                 "Jon Favreau" , "Wolfgang Reitherman" ;
         <http://www.example.org/entertainment/duration>
-                "106 minutes" , "78 minutes" , 78 , 106 ;
+                78 , 106 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4443,7 +4443,7 @@
         <http://www.example.org/entertainment/director>
                 "Dan Scanlon" ;
         <http://www.example.org/entertainment/duration>
-                104 , "104 minutes" ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4468,7 +4468,7 @@
         <http://www.example.org/entertainment/director>
                 "['Gary Trousdale', 'Kirk Wise']" ;
         <http://www.example.org/entertainment/duration>
-                "91 minutes" , 91 ;
+                91 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4493,7 +4493,7 @@
         <http://www.example.org/entertainment/director>
                 "Bill Paxton" ;
         <http://www.example.org/entertainment/duration>
-                120 , "120 minutes" ;
+                120 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4518,7 +4518,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                104 , "104 minutes" ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4541,7 +4541,7 @@
         <http://www.example.org/entertainment/director>
                 "Brian Fee" ;
         <http://www.example.org/entertainment/duration>
-                "102 minutes" , 102 ;
+                102 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4566,7 +4566,7 @@
         <http://www.example.org/entertainment/director>
                 "Sam Weisman" ;
         <http://www.example.org/entertainment/duration>
-                "92 minutes" , 92 ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4591,7 +4591,7 @@
         <http://www.example.org/entertainment/director>
                 "James Gartner" ;
         <http://www.example.org/entertainment/duration>
-                118 , "118 minutes" ;
+                118 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4616,7 +4616,7 @@
         <http://www.example.org/entertainment/director>
                 "['John Musker', 'Dave Michener', 'Ron Clements', 'Burny Mattinson']" ;
         <http://www.example.org/entertainment/duration>
-                74 , "74 minutes" ;
+                74 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4641,7 +4641,7 @@
         <http://www.example.org/entertainment/director>
                 "['Mark Andrews', 'Brenda Chapman']" ;
         <http://www.example.org/entertainment/duration>
-                "93 minutes" , 93 ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4664,7 +4664,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                "97 minutes" , 97 ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4687,7 +4687,7 @@
         <http://www.example.org/entertainment/director>
                 "Theodore Thomas" ;
         <http://www.example.org/entertainment/duration>
-                89 , "89 minutes" ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4708,7 +4708,7 @@
         <http://www.example.org/entertainment/director>
                 "Steven Hilliard Stern" ;
         <http://www.example.org/entertainment/duration>
-                96 , "96 minutes" ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4733,7 +4733,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                139 , "139 minutes" ;
+                139 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4756,7 +4756,7 @@
         <http://www.example.org/entertainment/director>
                 "Enrico Casarosa" ;
         <http://www.example.org/entertainment/duration>
-                95 , "95 minutes" ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4781,7 +4781,7 @@
         <http://www.example.org/entertainment/director>
                 "Dan Scanlon" ;
         <http://www.example.org/entertainment/duration>
-                102 , "102 minutes" ;
+                102 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4806,7 +4806,7 @@
         <http://www.example.org/entertainment/director>
                 "Andrew Stanton" ;
         <http://www.example.org/entertainment/duration>
-                "97 minutes" , 97 ;
+                97 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -4829,7 +4829,7 @@
         <http://www.example.org/entertainment/director>
                 "Kenny Ortega" ;
         <http://www.example.org/entertainment/duration>
-                "112 minutes" , 112 ;
+                112 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4852,7 +4852,7 @@
         <http://www.example.org/entertainment/director>
                 "Thea Sharrock" ;
         <http://www.example.org/entertainment/duration>
-                95 , "95 minutes" ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4875,7 +4875,7 @@
         <http://www.example.org/entertainment/director>
                 "['Ted Berman', 'Richard Rich', 'Art Stevens']" ;
         <http://www.example.org/entertainment/duration>
-                "83 minutes" , 83 ;
+                83 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4900,7 +4900,7 @@
         <http://www.example.org/entertainment/director>
                 "Tim Burton" , "['Clyde Geronimi', 'Wilfred Jackson', 'Hamilton Luske']" ;
         <http://www.example.org/entertainment/duration>
-                108 , 75 , "75 minutes" , "108 minutes" ;
+                108 , 75 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4925,7 +4925,7 @@
         <http://www.example.org/entertainment/director>
                 "David M. Evans" ;
         <http://www.example.org/entertainment/duration>
-                101 , "101 minutes" ;
+                101 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4950,7 +4950,7 @@
         <http://www.example.org/entertainment/director>
                 "Marc Forster" ;
         <http://www.example.org/entertainment/duration>
-                "104 minutes" , 104 ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4975,7 +4975,7 @@
         <http://www.example.org/entertainment/director>
                 "['Don Hall', 'Carlos López Estrada']" ;
         <http://www.example.org/entertainment/duration>
-                107 , "107 minutes" ;
+                107 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -4998,7 +4998,7 @@
         <http://www.example.org/entertainment/director>
                 "Vadim Sokolovsky" ;
         <http://www.example.org/entertainment/duration>
-                101 , "101 minutes" ;
+                101 ;
         <http://www.example.org/entertainment/language>
                 "Russian" ;
         <http://www.example.org/entertainment/provider>
@@ -5023,7 +5023,7 @@
         <http://www.example.org/entertainment/director>
                 "Matthew Robbins" ;
         <http://www.example.org/entertainment/duration>
-                "109 minutes" , 109 ;
+                109 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5046,7 +5046,7 @@
         <http://www.example.org/entertainment/director>
                 "James Neilson" ;
         <http://www.example.org/entertainment/duration>
-                "108 minutes" , 108 ;
+                108 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5069,7 +5069,7 @@
         <http://www.example.org/entertainment/director>
                 "Andrew V. McLaglen" ;
         <http://www.example.org/entertainment/duration>
-                "101 minutes" , 101 ;
+                101 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5092,7 +5092,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                "131 minutes" , 131 ;
+                131 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5115,7 +5115,7 @@
         <http://www.example.org/entertainment/director>
                 "Nils Gaup" ;
         <http://www.example.org/entertainment/duration>
-                93 , "93 minutes" ;
+                93 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -5138,7 +5138,7 @@
         <http://www.example.org/entertainment/director>
                 "Gore Verbinski" ;
         <http://www.example.org/entertainment/duration>
-                143 , "143 minutes" ;
+                143 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5161,7 +5161,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                "97 minutes" , 97 ;
+                97 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -5180,7 +5180,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                "98 minutes" , 98 ;
+                98 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5205,7 +5205,7 @@
         <http://www.example.org/entertainment/director>
                 "Jack Donohue" ;
         <http://www.example.org/entertainment/duration>
-                105 , "105 minutes" ;
+                105 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5228,7 +5228,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                93 , "93 minutes" ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5251,7 +5251,7 @@
         <http://www.example.org/entertainment/director>
                 "['Lasse Hallström', 'Joe Johnston']" ;
         <http://www.example.org/entertainment/duration>
-                99 , "99 minutes" ;
+                99 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5274,7 +5274,7 @@
         <http://www.example.org/entertainment/director>
                 "['Mark Linfield', 'Alastair Fothergill']" ;
         <http://www.example.org/entertainment/duration>
-                "82 minutes" , 82 ;
+                82 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5297,7 +5297,7 @@
         <http://www.example.org/entertainment/director>
                 "Charles Barton" ;
         <http://www.example.org/entertainment/duration>
-                95 , "95 minutes" ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5322,7 +5322,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stromberg" ;
         <http://www.example.org/entertainment/duration>
-                "97 minutes" , 97 ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5345,7 +5345,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                92 , "92 minutes" ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5368,7 +5368,7 @@
         <http://www.example.org/entertainment/director>
                 "Hiromasa Yonebayashi" ;
         <http://www.example.org/entertainment/duration>
-                "95 minutes" , 95 ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "Japanese" ;
         <http://www.example.org/entertainment/provider>
@@ -5393,7 +5393,7 @@
         <http://www.example.org/entertainment/director>
                 "Lee Unkrich" ;
         <http://www.example.org/entertainment/duration>
-                "103 minutes" , 103 ;
+                103 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5418,7 +5418,7 @@
         <http://www.example.org/entertainment/director>
                 "Peter Sohn" ;
         <http://www.example.org/entertainment/duration>
-                97 , "97 minutes" ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5441,7 +5441,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                98 , "98 minutes" ;
+                98 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5460,7 +5460,7 @@
         <http://www.example.org/entertainment/director>
                 "Theodore Thomas" ;
         <http://www.example.org/entertainment/duration>
-                "107 minutes" , 107 ;
+                107 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5483,7 +5483,7 @@
         <http://www.example.org/entertainment/director>
                 "Randal Kleiser" ;
         <http://www.example.org/entertainment/duration>
-                107 , "107 minutes" ;
+                107 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5508,7 +5508,7 @@
         <http://www.example.org/entertainment/director>
                 "Ken Annakin" ;
         <http://www.example.org/entertainment/duration>
-                "131 minutes" , 131 ;
+                131 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5533,7 +5533,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Altman" ;
         <http://www.example.org/entertainment/duration>
-                114 , "114 minutes" ;
+                114 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5558,7 +5558,7 @@
         <http://www.example.org/entertainment/director>
                 "Chuck Sheetz" ;
         <http://www.example.org/entertainment/duration>
-                83 , "83 minutes" ;
+                83 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5577,7 +5577,7 @@
         <http://www.example.org/entertainment/director>
                 "Louis Schwartzberg" ;
         <http://www.example.org/entertainment/duration>
-                "77 minutes" , 77 ;
+                77 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -5594,7 +5594,7 @@
         <http://www.example.org/entertainment/director>
                 "Steve Previn" ;
         <http://www.example.org/entertainment/duration>
-                "93 minutes" , 93 ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5617,7 +5617,7 @@
         <http://www.example.org/entertainment/director>
                 "David Swift" , "Nancy Meyers" ;
         <http://www.example.org/entertainment/duration>
-                128 , "128 minutes" ;
+                128 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5642,7 +5642,7 @@
         <http://www.example.org/entertainment/director>
                 "Brian Levant" ;
         <http://www.example.org/entertainment/duration>
-                99 , "99 minutes" ;
+                99 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5667,7 +5667,7 @@
         <http://www.example.org/entertainment/director>
                 "Craig Gillespie" ;
         <http://www.example.org/entertainment/duration>
-                117 , "117 minutes" ;
+                117 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5690,7 +5690,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                "95 minutes" , 95 ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5715,7 +5715,7 @@
         <http://www.example.org/entertainment/director>
                 "Hayao Miyazaki" ;
         <http://www.example.org/entertainment/duration>
-                "125 minutes" , 125 ;
+                125 ;
         <http://www.example.org/entertainment/language>
                 "Japanese" ;
         <http://www.example.org/entertainment/provider>
@@ -5738,7 +5738,7 @@
         <http://www.example.org/entertainment/director>
                 "Robin Budd" ;
         <http://www.example.org/entertainment/duration>
-                "73 minutes" , 73 ;
+                73 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5761,7 +5761,7 @@
         <http://www.example.org/entertainment/director>
                 "Marc Lawrence" ;
         <http://www.example.org/entertainment/duration>
-                100 , "100 minutes" ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5780,7 +5780,7 @@
         <http://www.example.org/entertainment/director>
                 "Michael O'Herlihy" ;
         <http://www.example.org/entertainment/duration>
-                "110 min." , 110 ;
+                110 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5803,7 +5803,7 @@
         <http://www.example.org/entertainment/director>
                 "Rob Minkoff" ;
         <http://www.example.org/entertainment/duration>
-                86 , "86 minutes" ;
+                86 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5826,7 +5826,7 @@
         <http://www.example.org/entertainment/director>
                 "Steve \"Spaz\" Williams" ;
         <http://www.example.org/entertainment/duration>
-                "82 minutes" , 82 ;
+                82 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5851,7 +5851,7 @@
         <http://www.example.org/entertainment/director>
                 "David Swift" ;
         <http://www.example.org/entertainment/duration>
-                134 , "134 minutes" ;
+                134 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5872,7 +5872,7 @@
         <http://www.example.org/entertainment/director>
                 "Jugal Hansraj" ;
         <http://www.example.org/entertainment/duration>
-                "93 minutes" , 93 ;
+                93 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -5893,7 +5893,7 @@
         <http://www.example.org/entertainment/director>
                 "Michael O'Herlihy" ;
         <http://www.example.org/entertainment/duration>
-                110 , "110 minutes" ;
+                110 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5916,7 +5916,7 @@
         <http://www.example.org/entertainment/director>
                 "Francis D. Lyon" ;
         <http://www.example.org/entertainment/duration>
-                "85 minutes" , 85 ;
+                85 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5937,7 +5937,7 @@
         <http://www.example.org/entertainment/director>
                 "['Alastair Fothergill', 'Keith Scholey']" ;
         <http://www.example.org/entertainment/duration>
-                78 , "78 minutes" ;
+                78 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5960,7 +5960,7 @@
         <http://www.example.org/entertainment/director>
                 "Roger Kumble" ;
         <http://www.example.org/entertainment/duration>
-                "83 minutes" , 83 ;
+                83 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -5983,7 +5983,7 @@
         <http://www.example.org/entertainment/director>
                 "['Gregory V. Sherman', 'Jeffrey C. Sherman']" ;
         <http://www.example.org/entertainment/duration>
-                101 , "101 minutes" ;
+                101 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6008,7 +6008,7 @@
         <http://www.example.org/entertainment/director>
                 "John Lasseter" ;
         <http://www.example.org/entertainment/duration>
-                "81 minutes" , 81 ;
+                81 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6029,7 +6029,7 @@
         <http://www.example.org/entertainment/director>
                 "['Alastair Fothergill', 'Keith Scholey']" ;
         <http://www.example.org/entertainment/duration>
-                89 , "89 minutes" ;
+                89 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -6052,7 +6052,7 @@
         <http://www.example.org/entertainment/director>
                 "John Lasseter" ;
         <http://www.example.org/entertainment/duration>
-                "117 minutes" , 117 ;
+                117 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6077,7 +6077,7 @@
         <http://www.example.org/entertainment/director>
                 "Garry Marshall" ;
         <http://www.example.org/entertainment/duration>
-                113 , "113 minutes" ;
+                113 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6098,7 +6098,7 @@
         <http://www.example.org/entertainment/director>
                 "['Alastair Fothergill', 'Jeff Wilson']" ;
         <http://www.example.org/entertainment/duration>
-                76 , "76 minutes" ;
+                76 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6121,7 +6121,7 @@
         <http://www.example.org/entertainment/director>
                 "Jeremy Kagan" ;
         <http://www.example.org/entertainment/duration>
-                101 , "101 minutes" ;
+                101 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6144,7 +6144,7 @@
         <http://www.example.org/entertainment/director>
                 "Luc Jacquet" ;
         <http://www.example.org/entertainment/duration>
-                "80 minutes" , 80 ;
+                80 ;
         <http://www.example.org/entertainment/language>
                 "French" ;
         <http://www.example.org/entertainment/provider>
@@ -6169,7 +6169,7 @@
         <http://www.example.org/entertainment/director>
                 "Niki Caro" , "['Barry Cook', 'Tony Bancroft']" ;
         <http://www.example.org/entertainment/duration>
-                87 , "115 minutes" , "87 minutes" , 115 ;
+                87 , 115 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6192,7 +6192,7 @@
         <http://www.example.org/entertainment/director>
                 "Lewis R. Foster" ;
         <http://www.example.org/entertainment/duration>
-                "97 minutes" , 97 ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6217,7 +6217,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                108 , "108 minutes" ;
+                108 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6242,7 +6242,7 @@
         <http://www.example.org/entertainment/director>
                 "Rob Marshall" ;
         <http://www.example.org/entertainment/duration>
-                "124 minutes" , 124 ;
+                124 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6265,7 +6265,7 @@
         <http://www.example.org/entertainment/director>
                 "Steven Lisberger" ;
         <http://www.example.org/entertainment/duration>
-                96 , "96 minutes" ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6286,7 +6286,7 @@
         <http://www.example.org/entertainment/director>
                 "Michael Tuchner" ;
         <http://www.example.org/entertainment/duration>
-                91 , "91 min" ;
+                91 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6309,7 +6309,7 @@
         <http://www.example.org/entertainment/director>
                 "Duwayne Dunham" ;
         <http://www.example.org/entertainment/duration>
-                "84 minutes" , 84 ;
+                84 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6330,7 +6330,7 @@
         <http://www.example.org/entertainment/director>
                 "['Jon Long', 'Hairul Salleh Askor']" ;
         <http://www.example.org/entertainment/duration>
-                "40 minutes" , 40 ;
+                40 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6370,7 +6370,7 @@
         <http://www.example.org/entertainment/director>
                 "['Ron Clements', 'John Musker']" ;
         <http://www.example.org/entertainment/duration>
-                "107 minutes" , 107 ;
+                107 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6395,7 +6395,7 @@
         <http://www.example.org/entertainment/director>
                 "Henry Selick" ;
         <http://www.example.org/entertainment/duration>
-                "76 minutes" , 76 ;
+                76 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6420,7 +6420,7 @@
         <http://www.example.org/entertainment/director>
                 "Jon Turteltaub" ;
         <http://www.example.org/entertainment/duration>
-                "124 minutes" , 124 ;
+                124 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6445,7 +6445,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                118 , "['118 minutes (1971 original version)', '139 minutes (1996 reconstruction version)']" ;
+                118 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6470,7 +6470,7 @@
         <http://www.example.org/entertainment/director>
                 "Brad Bird" ;
         <http://www.example.org/entertainment/duration>
-                "115 minutes" , 115 ;
+                115 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6493,7 +6493,7 @@
         <http://www.example.org/entertainment/director>
                 "Steve Trenbirth" ;
         <http://www.example.org/entertainment/duration>
-                72 , "72 minutes" ;
+                72 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6518,7 +6518,7 @@
         <http://www.example.org/entertainment/director>
                 "Pete Docter" ;
         <http://www.example.org/entertainment/duration>
-                "96 minutes" , 96 ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6543,7 +6543,7 @@
         <http://www.example.org/entertainment/director>
                 "Shashanka Ghosh" ;
         <http://www.example.org/entertainment/duration>
-                127 , "127 minutes" ;
+                127 ;
         <http://www.example.org/entertainment/language>
                 "Hindi" ;
         <http://www.example.org/entertainment/provider>
@@ -6568,7 +6568,7 @@
         <http://www.example.org/entertainment/director>
                 "['Supervising director', 'David Hand', 'Sequence directors', 'James Algar', 'Samuel Armstrong', 'Graham Heid', 'Bill Roberts', 'Paul Satterfield', 'Norman Wright']" ;
         <http://www.example.org/entertainment/duration>
-                70 , "70 minutes" ;
+                70 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6593,7 +6593,7 @@
         <http://www.example.org/entertainment/director>
                 "Thomas Kail" ;
         <http://www.example.org/entertainment/duration>
-                "160 minutes" , 160 ;
+                160 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6610,7 +6610,7 @@
         <http://www.example.org/entertainment/director>
                 "James Algar" ;
         <http://www.example.org/entertainment/duration>
-                "69 minutes" , 69 ;
+                69 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6633,7 +6633,7 @@
         <http://www.example.org/entertainment/director>
                 "Simon Wincer" ;
         <http://www.example.org/entertainment/duration>
-                "108 minutes" , 108 ;
+                108 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -6656,7 +6656,7 @@
         <http://www.example.org/entertainment/director>
                 "Andrew Stanton" ;
         <http://www.example.org/entertainment/duration>
-                "132 minutes" , 132 ;
+                132 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6681,7 +6681,7 @@
         <http://www.example.org/entertainment/director>
                 "Stephen Sommers" ;
         <http://www.example.org/entertainment/duration>
-                107 , "107 minutes" ;
+                107 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6702,7 +6702,7 @@
         <http://www.example.org/entertainment/director>
                 "Louis Schwartzberg" ;
         <http://www.example.org/entertainment/duration>
-                84 , "84 minutes" ;
+                84 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6723,7 +6723,7 @@
         <http://www.example.org/entertainment/director>
                 "['Mark Linfield', 'Vanessa Berlowitz']" ;
         <http://www.example.org/entertainment/duration>
-                "89 minutes" , 89 ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6746,7 +6746,7 @@
         <http://www.example.org/entertainment/director>
                 "Mike Newell" ;
         <http://www.example.org/entertainment/duration>
-                "116 minutes" , 116 ;
+                116 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6767,7 +6767,7 @@
         <http://www.example.org/entertainment/director>
                 "James Algar" ;
         <http://www.example.org/entertainment/duration>
-                89 , "89 minutes" ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6790,7 +6790,7 @@
         <http://www.example.org/entertainment/director>
                 "Simon Wells" ;
         <http://www.example.org/entertainment/duration>
-                88 , "88 minutes" ;
+                88 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6815,7 +6815,7 @@
         <http://www.example.org/entertainment/director>
                 "Brad Bird" ;
         <http://www.example.org/entertainment/duration>
-                130 , "130 minutes" ;
+                130 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6836,7 +6836,7 @@
         <http://www.example.org/entertainment/director>
                 "Ken Annakin" ;
         <http://www.example.org/entertainment/duration>
-                "84 minutes" , 84 ;
+                84 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6861,7 +6861,7 @@
         <http://www.example.org/entertainment/director>
                 "Tim Fywell" ;
         <http://www.example.org/entertainment/duration>
-                97 , "97 minutes" ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6886,7 +6886,7 @@
         <http://www.example.org/entertainment/director>
                 "['Pete Docter']" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6909,7 +6909,7 @@
         <http://www.example.org/entertainment/director>
                 "Ken Annakin" ;
         <http://www.example.org/entertainment/duration>
-                92 , "92 minutes" ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6951,7 +6951,7 @@
         <http://www.example.org/entertainment/director>
                 "Stephen Herek" ;
         <http://www.example.org/entertainment/duration>
-                104 , "104 minutes" ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6974,7 +6974,7 @@
         <http://www.example.org/entertainment/director>
                 "Steven Brill" ;
         <http://www.example.org/entertainment/duration>
-                100 , "100 minutes" ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -6997,7 +6997,7 @@
         <http://www.example.org/entertainment/director>
                 "Don Chaffey" ;
         <http://www.example.org/entertainment/duration>
-                91 , "91 minutes" ;
+                91 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7020,7 +7020,7 @@
         <http://www.example.org/entertainment/director>
                 "Josh Cooley" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7045,7 +7045,7 @@
         <http://www.example.org/entertainment/director>
                 "Sam Raimi" ;
         <http://www.example.org/entertainment/duration>
-                "130 minutes" , 130 ;
+                130 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7064,7 +7064,7 @@
         <http://www.example.org/entertainment/director>
                 "James Algar" ;
         <http://www.example.org/entertainment/duration>
-                72 , "72 minutes" ;
+                72 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7087,7 +7087,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                89 , "89 minutes" ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7110,7 +7110,7 @@
         <http://www.example.org/entertainment/director>
                 "Dmitriy Dyachenko" ;
         <http://www.example.org/entertainment/duration>
-                "121 minutes" , 121 ;
+                121 ;
         <http://www.example.org/entertainment/language>
                 "Russian" ;
         <http://www.example.org/entertainment/provider>
@@ -7133,7 +7133,7 @@
         <http://www.example.org/entertainment/director>
                 "['Byron Howard', 'Rich Moore']" ;
         <http://www.example.org/entertainment/duration>
-                108 , "108 minutes" ;
+                108 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7156,7 +7156,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                91 , "91 minutes" ;
+                91 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7177,7 +7177,7 @@
         <http://www.example.org/entertainment/director>
                 "['Alastair Fothergill', 'Keith Scholey']" ;
         <http://www.example.org/entertainment/duration>
-                77 , "77 minutes" ;
+                77 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7202,7 +7202,7 @@
         <http://www.example.org/entertainment/director>
                 "Wolfgang Reitherman" ;
         <http://www.example.org/entertainment/duration>
-                79 , "79 minutes" ;
+                79 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7225,7 +7225,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                100 , "100 minutes" ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7248,7 +7248,7 @@
         <http://www.example.org/entertainment/director>
                 "Harald Sicheritz" ;
         <http://www.example.org/entertainment/duration>
-                90 , "90 minutes" ;
+                90 ;
         <http://www.example.org/entertainment/language>
                 "German" ;
         <http://www.example.org/entertainment/provider>
@@ -7269,7 +7269,7 @@
         <http://www.example.org/entertainment/director>
                 "Mikael Salomon" ;
         <http://www.example.org/entertainment/duration>
-                "108 minutes" , 108 ;
+                108 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7290,7 +7290,7 @@
         <http://www.example.org/entertainment/director>
                 "Fletcher Markle" ;
         <http://www.example.org/entertainment/duration>
-                80 , "80 min." ;
+                80 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7315,7 +7315,7 @@
         <http://www.example.org/entertainment/director>
                 "Jim Fall" ;
         <http://www.example.org/entertainment/duration>
-                "94 minutes" , 94 ;
+                94 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7338,7 +7338,7 @@
         <http://www.example.org/entertainment/director>
                 "Jerry Paris" ;
         <http://www.example.org/entertainment/duration>
-                99 , "99 minutes" ;
+                99 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7363,7 +7363,7 @@
         <http://www.example.org/entertainment/director>
                 "Tim Burton" ;
         <http://www.example.org/entertainment/duration>
-                87 , "87 minutes" ;
+                87 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7388,7 +7388,7 @@
         <http://www.example.org/entertainment/director>
                 "Kevin Lima" ;
         <http://www.example.org/entertainment/duration>
-                "78 minutes" , 78 ;
+                78 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7413,7 +7413,7 @@
         <http://www.example.org/entertainment/director>
                 "Geoff Burrowes" ;
         <http://www.example.org/entertainment/duration>
-                "110 minutes" , 110 ;
+                110 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7436,7 +7436,7 @@
         <http://www.example.org/entertainment/director>
                 "Simon Wincer" ;
         <http://www.example.org/entertainment/duration>
-                "50 minutes" , 50 ;
+                50 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7461,7 +7461,7 @@
         <http://www.example.org/entertainment/director>
                 "James Bobin" ;
         <http://www.example.org/entertainment/duration>
-                "103 minutes" , 103 ;
+                103 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7482,7 +7482,7 @@
         <http://www.example.org/entertainment/director>
                 "Mark Monroe" ;
         <http://www.example.org/entertainment/duration>
-                100 , "100 minutes" ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7505,7 +7505,7 @@
         <http://www.example.org/entertainment/director>
                 "John Lee Hancock" ;
         <http://www.example.org/entertainment/duration>
-                125 , "125 minutes" ;
+                125 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7530,7 +7530,7 @@
         <http://www.example.org/entertainment/director>
                 "Niki Caro" ;
         <http://www.example.org/entertainment/duration>
-                129 , "129 minutes" ;
+                129 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7549,7 +7549,7 @@
         <http://www.example.org/entertainment/director>
                 "['Matthew Aeberhard', 'Leander Ward']" ;
         <http://www.example.org/entertainment/duration>
-                "74 minutes" , 74 ;
+                74 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7570,7 +7570,7 @@
         <http://www.example.org/entertainment/director>
                 "Andrew Adamson" ;
         <http://www.example.org/entertainment/duration>
-                150 , "150 minutes" ;
+                150 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7595,7 +7595,7 @@
         <http://www.example.org/entertainment/director>
                 "Stephen Anderson" ;
         <http://www.example.org/entertainment/duration>
-                94 , "94 minutes" ;
+                94 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7620,7 +7620,7 @@
         <http://www.example.org/entertainment/director>
                 "Michael Lembeck" ;
         <http://www.example.org/entertainment/duration>
-                92 , "92 minutes" ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7645,7 +7645,7 @@
         <http://www.example.org/entertainment/director>
                 "Guy Ritchie" , "['John Musker', 'Ron Clements']" ;
         <http://www.example.org/entertainment/duration>
-                "128 minutes" , 128 , 90 , "90 minutes" ;
+                128 , 90 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7670,7 +7670,7 @@
         <http://www.example.org/entertainment/director>
                 "Rupert Wainwright" ;
         <http://www.example.org/entertainment/duration>
-                "94 minutes" , 94 ;
+                94 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7695,7 +7695,7 @@
         <http://www.example.org/entertainment/director>
                 "Boaz Yakin" ;
         <http://www.example.org/entertainment/duration>
-                113 , "113 minutes" ;
+                113 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7716,7 +7716,7 @@
         <http://www.example.org/entertainment/director>
                 "Ron Kelly" ;
         <http://www.example.org/entertainment/duration>
-                93 , "93 minutes" ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7737,7 +7737,7 @@
         <http://www.example.org/entertainment/director>
                 "Byron Haskin" ;
         <http://www.example.org/entertainment/duration>
-                96 , "96 minutes" ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7762,7 +7762,7 @@
         <http://www.example.org/entertainment/director>
                 "['Chris Sanders', 'Dean DeBlois']" ;
         <http://www.example.org/entertainment/duration>
-                85 , "85 minutes" ;
+                85 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7787,7 +7787,7 @@
         <http://www.example.org/entertainment/director>
                 "Peter Hastings" ;
         <http://www.example.org/entertainment/duration>
-                88 , "88 minutes" ;
+                88 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7812,7 +7812,7 @@
         <http://www.example.org/entertainment/director>
                 "Richard Fleischer" ;
         <http://www.example.org/entertainment/duration>
-                "127 minutes" , 127 ;
+                127 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7833,7 +7833,7 @@
         <http://www.example.org/entertainment/director>
                 "['James Algar', 'Jack Couffer']" ;
         <http://www.example.org/entertainment/duration>
-                67 , "67 minutes" ;
+                67 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7854,7 +7854,7 @@
         <http://www.example.org/entertainment/director>
                 "Sharon Maguire" ;
         <http://www.example.org/entertainment/duration>
-                "113 minutes" , 113 ;
+                113 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7877,7 +7877,7 @@
         <http://www.example.org/entertainment/director>
                 "Randal Kleiser" ;
         <http://www.example.org/entertainment/duration>
-                89 , "89 minutes" ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7900,7 +7900,7 @@
         <http://www.example.org/entertainment/director>
                 "Russ Mayberry" ;
         <http://www.example.org/entertainment/duration>
-                93 , "93 minutes" ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7921,7 +7921,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Butler" ;
         <http://www.example.org/entertainment/duration>
-                91 , "91 minutes" ;
+                91 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7946,7 +7946,7 @@
         <http://www.example.org/entertainment/director>
                 "Ericson Core" ;
         <http://www.example.org/entertainment/duration>
-                114 , "114 minutes" ;
+                114 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -7988,7 +7988,7 @@
         <http://www.example.org/entertainment/director>
                 "Joachim Rønning" ;
         <http://www.example.org/entertainment/duration>
-                "119 minutes" , 119 ;
+                119 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8013,7 +8013,7 @@
         <http://www.example.org/entertainment/director>
                 "Holly Goldberg Sloan" ;
         <http://www.example.org/entertainment/duration>
-                99 , "99 minutes" ;
+                99 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8038,7 +8038,7 @@
         <http://www.example.org/entertainment/director>
                 "Gore Verbinski" ;
         <http://www.example.org/entertainment/duration>
-                150 , "150 minutes" ;
+                150 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8061,7 +8061,7 @@
         <http://www.example.org/entertainment/director>
                 "Jun Falkenstein" ;
         <http://www.example.org/entertainment/duration>
-                "78 minutes" , 78 ;
+                78 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8086,7 +8086,7 @@
         <http://www.example.org/entertainment/director>
                 "Arlene Sanford" ;
         <http://www.example.org/entertainment/duration>
-                "86 minutes" , 86 ;
+                86 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8107,7 +8107,7 @@
         <http://www.example.org/entertainment/director>
                 "Jack Speirs" ;
         <http://www.example.org/entertainment/duration>
-                48 , "48 minutes" ;
+                48 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8126,7 +8126,7 @@
         <http://www.example.org/entertainment/director>
                 "Charles Jarrott" ;
         <http://www.example.org/entertainment/duration>
-                "104 minutes" , 104 ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8149,7 +8149,7 @@
         <http://www.example.org/entertainment/director>
                 "William Dear" ;
         <http://www.example.org/entertainment/duration>
-                102 , "102 minutes" ;
+                102 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8172,7 +8172,7 @@
         <http://www.example.org/entertainment/director>
                 "Bernard McEveety" ;
         <http://www.example.org/entertainment/duration>
-                92 , "92 minutes" ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8195,7 +8195,7 @@
         <http://www.example.org/entertainment/director>
                 "Jon Turteltaub" ;
         <http://www.example.org/entertainment/duration>
-                104 , "104 minutes" ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8220,7 +8220,7 @@
         <http://www.example.org/entertainment/director>
                 "Steve Boyum" ;
         <http://www.example.org/entertainment/duration>
-                93 , "93 minutes" ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8245,7 +8245,7 @@
         <http://www.example.org/entertainment/director>
                 "Gary Nelson" ;
         <http://www.example.org/entertainment/duration>
-                98 , "98 minutes" ;
+                98 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8270,7 +8270,7 @@
         <http://www.example.org/entertainment/director>
                 "['Nathan Greno', 'Byron Howard']" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8295,7 +8295,7 @@
         <http://www.example.org/entertainment/director>
                 "['Clyde Geronimi', 'Eric Larson', 'Wolfgang Reitherman', 'Les Clark']" ;
         <http://www.example.org/entertainment/duration>
-                75 , "75 minutes" ;
+                75 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8318,7 +8318,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                93 , "93 minutes" ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8339,7 +8339,7 @@
         <http://www.example.org/entertainment/director>
                 "William Beaudine" ;
         <http://www.example.org/entertainment/duration>
-                "92 minutes" , 92 ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8362,7 +8362,7 @@
         <http://www.example.org/entertainment/director>
                 "Carroll Ballard" ;
         <http://www.example.org/entertainment/duration>
-                105 , "105 minutes" ;
+                105 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -8385,7 +8385,7 @@
         <http://www.example.org/entertainment/director>
                 "Gavin O'Connor" ;
         <http://www.example.org/entertainment/duration>
-                "136 minutes" , 136 ;
+                136 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8408,7 +8408,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Totten" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8431,7 +8431,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                87 , "87 minutes" ;
+                87 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8454,7 +8454,7 @@
         <http://www.example.org/entertainment/director>
                 "Bernard McEveety" ;
         <http://www.example.org/entertainment/duration>
-                90 , "90 Minutes" ;
+                90 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8479,7 +8479,7 @@
         <http://www.example.org/entertainment/director>
                 "['Chris Buck', 'Jennifer Lee']" ;
         <http://www.example.org/entertainment/duration>
-                "102 minutes" , 102 ;
+                102 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8504,7 +8504,7 @@
         <http://www.example.org/entertainment/director>
                 "Rich Moore" ;
         <http://www.example.org/entertainment/duration>
-                "101 minutes" , 101 ;
+                101 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8542,7 +8542,7 @@
         <http://www.example.org/entertainment/director>
                 "Jerome Courtland" ;
         <http://www.example.org/entertainment/duration>
-                87 , "87 minutes" ;
+                87 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8561,7 +8561,7 @@
         <http://www.example.org/entertainment/director>
                 "['John Chu', 'Frankie Chung']" ;
         <http://www.example.org/entertainment/duration>
-                85 , "85 minutes" ;
+                85 ;
         <http://www.example.org/entertainment/language>
                 "Chinese" ;
         <http://www.example.org/entertainment/provider>
@@ -8582,7 +8582,7 @@
         <http://www.example.org/entertainment/director>
                 "['Michael Nankin', 'David Wechter']" ;
         <http://www.example.org/entertainment/duration>
-                112 , "112 minutes" ;
+                112 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8605,7 +8605,7 @@
         <http://www.example.org/entertainment/director>
                 "Steve Miner" ;
         <http://www.example.org/entertainment/duration>
-                "88 minutes" , 88 ;
+                88 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8628,7 +8628,7 @@
         <http://www.example.org/entertainment/director>
                 "Bob Spiers" ;
         <http://www.example.org/entertainment/duration>
-                "86 minutes" , 86 ;
+                86 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8653,7 +8653,7 @@
         <http://www.example.org/entertainment/director>
                 "David Kellogg" ;
         <http://www.example.org/entertainment/duration>
-                "78 minutes" , 78 ;
+                78 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8676,7 +8676,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                "91 min." , 91 ;
+                91 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8701,7 +8701,7 @@
         <http://www.example.org/entertainment/director>
                 "Mike Mitchell" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8722,7 +8722,7 @@
         <http://www.example.org/entertainment/director>
                 "['Alastair Fothergill', 'Mark Linfield']" ;
         <http://www.example.org/entertainment/duration>
-                "['99 minutes (UK)', '90 minutes (U.S.)']" , 99 ;
+                99 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8745,7 +8745,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Lieberman" ;
         <http://www.example.org/entertainment/duration>
-                104 , "104 minutes" ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8770,7 +8770,7 @@
         <http://www.example.org/entertainment/director>
                 "['Harold D. Schuster', 'Hamilton Luske']" ;
         <http://www.example.org/entertainment/duration>
-                "82 minutes" , 82 ;
+                82 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8795,7 +8795,7 @@
         <http://www.example.org/entertainment/director>
                 "Randall Wallace" ;
         <http://www.example.org/entertainment/duration>
-                123 , "123 minutes" ;
+                123 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8820,7 +8820,7 @@
         <http://www.example.org/entertainment/director>
                 "['Ted Berman', 'Richard Rich']" ;
         <http://www.example.org/entertainment/duration>
-                80 , "80 minutes" ;
+                80 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8843,7 +8843,7 @@
         <http://www.example.org/entertainment/director>
                 "Andrew Adamson" ;
         <http://www.example.org/entertainment/duration>
-                143 , "143 minutes" ;
+                143 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8868,7 +8868,7 @@
         <http://www.example.org/entertainment/director>
                 "['Rich Moore', 'Phil Johnston']" ;
         <http://www.example.org/entertainment/duration>
-                112 , "112 minutes" ;
+                112 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8891,7 +8891,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Foster" ;
         <http://www.example.org/entertainment/duration>
-                81 , "81 minutes" ;
+                81 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8914,7 +8914,7 @@
         <http://www.example.org/entertainment/director>
                 "Brian Henson" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8939,7 +8939,7 @@
         <http://www.example.org/entertainment/director>
                 "Ava DuVernay" ;
         <http://www.example.org/entertainment/duration>
-                "109 minutes" , 109 ;
+                109 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8964,7 +8964,7 @@
         <http://www.example.org/entertainment/director>
                 "['Ron Clements', 'John Musker']" ;
         <http://www.example.org/entertainment/duration>
-                "95 minutes" , 95 ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -8987,7 +8987,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                103 , "103 Minutes" ;
+                103 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9012,7 +9012,7 @@
         <http://www.example.org/entertainment/director>
                 "John Pasquin" ;
         <http://www.example.org/entertainment/duration>
-                "97 minutes" , 97 ;
+                97 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9035,7 +9035,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                "84 minutes" , 84 ;
+                84 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9058,7 +9058,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9079,7 +9079,7 @@
         <http://www.example.org/entertainment/director>
                 "['Hendel Butoy', 'Mike Gabriel']" ;
         <http://www.example.org/entertainment/duration>
-                "77 minutes" , 77 ;
+                77 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9102,7 +9102,7 @@
         <http://www.example.org/entertainment/director>
                 "['Jacques Perrin', 'Jacques Cluzaud', '(co-director)']" ;
         <http://www.example.org/entertainment/duration>
-                "['104 minutes (Original cut)', '84 minutes (Disney cut)']" , 104 ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "French" ;
         <http://www.example.org/entertainment/provider>
@@ -9127,7 +9127,7 @@
         <http://www.example.org/entertainment/director>
                 "['Alfred Werker', '(live action)', 'Hamilton Luske', '(animation)', 'Jack Cutting', ',', 'Ub Iwerks', ',', 'Jack Kinney', '(sequence directors)']" ;
         <http://www.example.org/entertainment/duration>
-                "74 minutes" , 74 ;
+                74 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9150,7 +9150,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                "131 mins." , 131 ;
+                131 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9175,7 +9175,7 @@
         <http://www.example.org/entertainment/director>
                 "Kenny Ortega" ;
         <http://www.example.org/entertainment/duration>
-                "96 minutes" , 96 ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9196,7 +9196,7 @@
         <http://www.example.org/entertainment/director>
                 "James Algar" ;
         <http://www.example.org/entertainment/duration>
-                "['60 minutes (VHS version)', '71 minutes (original)']" , 60 ;
+                60 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9221,7 +9221,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                "['164 minutes', '(', 'Los Angeles', 'premiere)', '144 minutes', '(', 'New York City', 'premiere)', '118 minutes', '(General release)', '172 minutes', '(', \"Director's cut\", ')']" , 164 ;
+                164 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9244,7 +9244,7 @@
         <http://www.example.org/entertainment/director>
                 "Norman Tokar" ;
         <http://www.example.org/entertainment/duration>
-                100 , "100 minutes" ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9269,7 +9269,7 @@
         <http://www.example.org/entertainment/director>
                 "['John Hough', 'Vincent McEveety (uncredited)']" ;
         <http://www.example.org/entertainment/duration>
-                "84 minutes" , 84 ;
+                84 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9292,7 +9292,7 @@
         <http://www.example.org/entertainment/director>
                 "['Norman Ferguson', 'Wilfred Jackson', 'Jack Kinney', 'Hamilton Luske', 'Bill Roberts']" ;
         <http://www.example.org/entertainment/duration>
-                "42 minutes" , 42 ;
+                42 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -9315,7 +9315,7 @@
         <http://www.example.org/entertainment/director>
                 "Kenny Ortega" ;
         <http://www.example.org/entertainment/duration>
-                121 , "121 minutes" ;
+                121 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9340,7 +9340,7 @@
         <http://www.example.org/entertainment/director>
                 "Andrew Stanton" ;
         <http://www.example.org/entertainment/duration>
-                100 , "100 minutes" ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9361,7 +9361,7 @@
         <http://www.example.org/entertainment/director>
                 "Roberto Gavaldón" ;
         <http://www.example.org/entertainment/duration>
-                "73 minutes" , 73 ;
+                73 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -9382,7 +9382,7 @@
         <http://www.example.org/entertainment/director>
                 "Vincent McEveety" ;
         <http://www.example.org/entertainment/duration>
-                "104 minutes" , 104 ;
+                104 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9405,7 +9405,7 @@
         <http://www.example.org/entertainment/director>
                 "Bernard McEveety" ;
         <http://www.example.org/entertainment/duration>
-                "89 minutes" , 89 ;
+                89 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9430,7 +9430,7 @@
         <http://www.example.org/entertainment/director>
                 "Charles Jarrott" ;
         <http://www.example.org/entertainment/duration>
-                90 , "90 minutes" ;
+                90 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9453,7 +9453,7 @@
         <http://www.example.org/entertainment/director>
                 "['Clyde Geronimi', 'Wilfred Jackson', 'Hamilton Luske']" ;
         <http://www.example.org/entertainment/duration>
-                "77 minutes" , 77 ;
+                77 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9476,7 +9476,7 @@
         <http://www.example.org/entertainment/director>
                 "Peter Hewitt" ;
         <http://www.example.org/entertainment/duration>
-                "92 minutes" , 92 ;
+                92 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9501,7 +9501,7 @@
         <http://www.example.org/entertainment/director>
                 "Stephen Sommers" ;
         <http://www.example.org/entertainment/duration>
-                111 , "111 minutes" ;
+                111 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9522,7 +9522,7 @@
         <http://www.example.org/entertainment/director>
                 "Delbert Mann" ;
         <http://www.example.org/entertainment/duration>
-                "107 minutes" , 107 ;
+                107 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9547,7 +9547,7 @@
         <http://www.example.org/entertainment/director>
                 "Joseph Kosinski" ;
         <http://www.example.org/entertainment/duration>
-                125 , "125 minutes" ;
+                125 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9570,7 +9570,7 @@
         <http://www.example.org/entertainment/director>
                 "['James Cameron', 'Steven Quale']" ;
         <http://www.example.org/entertainment/duration>
-                100 , "100 minutes" ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9593,7 +9593,7 @@
         <http://www.example.org/entertainment/director>
                 "['Norman Ferguson', 'Clyde Geronimi', 'Jack Kinney', 'Bill Roberts', 'Harold Young']" ;
         <http://www.example.org/entertainment/duration>
-                "71 minutes" , 71 ;
+                71 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -9616,7 +9616,7 @@
         <http://www.example.org/entertainment/director>
                 "['Ron Clements', 'John Musker']" , "Rob Marshall" ;
         <http://www.example.org/entertainment/duration>
-                "83 minutes" , 83 ;
+                83 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9639,7 +9639,7 @@
         <http://www.example.org/entertainment/director>
                 "Robert Stevenson" ;
         <http://www.example.org/entertainment/duration>
-                93 , "93 minutes" ;
+                93 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -9662,7 +9662,7 @@
         <http://www.example.org/entertainment/director>
                 "['Kevin Lima', 'Chris Buck']" ;
         <http://www.example.org/entertainment/duration>
-                88 , "88 minutes" ;
+                88 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9687,7 +9687,7 @@
         <http://www.example.org/entertainment/director>
                 "Gábor Csupó" ;
         <http://www.example.org/entertainment/duration>
-                "95 minutes" , 95 ;
+                95 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9712,7 +9712,7 @@
         <http://www.example.org/entertainment/director>
                 "Joe Johnston" ;
         <http://www.example.org/entertainment/duration>
-                108 , "108 minutes" ;
+                108 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9735,7 +9735,7 @@
         <http://www.example.org/entertainment/director>
                 "Don Chaffey" ;
         <http://www.example.org/entertainment/duration>
-                "91 minutes" , 91 ;
+                91 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9758,7 +9758,7 @@
         <http://www.example.org/entertainment/director>
                 "Mira Nair" ;
         <http://www.example.org/entertainment/duration>
-                124 , "124 minutes" ;
+                124 ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
         <http://www.example.org/entertainment/release_year>
@@ -9781,7 +9781,7 @@
         <http://www.example.org/entertainment/director>
                 "Ken Annakin" ;
         <http://www.example.org/entertainment/duration>
-                "105 minutes" , 105 ;
+                105 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9806,7 +9806,7 @@
         <http://www.example.org/entertainment/director>
                 "Stephen Herek" ;
         <http://www.example.org/entertainment/duration>
-                "103 minutes" , 103 ;
+                103 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9829,7 +9829,7 @@
         <http://www.example.org/entertainment/director>
                 "Charles Martin Smith" ;
         <http://www.example.org/entertainment/duration>
-                "98 minutes" , 98 ;
+                98 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9854,7 +9854,7 @@
         <http://www.example.org/entertainment/director>
                 "Tim Hill" ;
         <http://www.example.org/entertainment/duration>
-                "86 minutes" , 86 ;
+                86 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9879,7 +9879,7 @@
         <http://www.example.org/entertainment/director>
                 "['Gary Trousdale', 'Kirk Wise']" ;
         <http://www.example.org/entertainment/duration>
-                "96 minutes" , 96 ;
+                96 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9902,7 +9902,7 @@
         <http://www.example.org/entertainment/director>
                 "['John Lounsbery', 'Wolfgang Reitherman']" ;
         <http://www.example.org/entertainment/duration>
-                74 , "74 minutes" ;
+                74 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9925,7 +9925,7 @@
         <http://www.example.org/entertainment/director>
                 "Timothy Björklund" ;
         <http://www.example.org/entertainment/duration>
-                "74 minutes" , 74 ;
+                74 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9946,7 +9946,7 @@
         <http://www.example.org/entertainment/director>
                 "['Leslie Woodhead', 'Bud Greenspan']" ;
         <http://www.example.org/entertainment/duration>
-                83 , "83 minutes" ;
+                83 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9969,7 +9969,7 @@
         <http://www.example.org/entertainment/director>
                 "['David Hand', 'William Cottrell', 'Wilfred Jackson', 'Larry Morey', 'Perce Pearce', 'Ben Sharpsteen']" ;
         <http://www.example.org/entertainment/duration>
-                83 , "83 minutes" ;
+                83 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -9994,7 +9994,7 @@
         <http://www.example.org/entertainment/director>
                 "Ron Underwood" ;
         <http://www.example.org/entertainment/duration>
-                "114 minutes" , 114 ;
+                114 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -10019,7 +10019,7 @@
         <http://www.example.org/entertainment/director>
                 "Brian Robbins" , "Charles Barton" ;
         <http://www.example.org/entertainment/duration>
-                104 , 99 , "104 minutes" , "99 minutes" ;
+                104 , 99 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -10042,7 +10042,7 @@
         <http://www.example.org/entertainment/director>
                 "Harold French" ;
         <http://www.example.org/entertainment/duration>
-                "81 minutes" , 81 ;
+                81 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -10065,7 +10065,7 @@
         <http://www.example.org/entertainment/director>
                 "Kevin Lima" ;
         <http://www.example.org/entertainment/duration>
-                "100 minutes" , 100 ;
+                100 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -10090,7 +10090,7 @@
         <http://www.example.org/entertainment/director>
                 "Brad Bird" ;
         <http://www.example.org/entertainment/duration>
-                118 , "118 minutes" ;
+                118 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -10115,7 +10115,7 @@
         <http://www.example.org/entertainment/director>
                 "Brian Henson" ;
         <http://www.example.org/entertainment/duration>
-                "86 minutes" , 86 ;
+                86 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -10140,7 +10140,7 @@
         <http://www.example.org/entertainment/director>
                 "Rob Marshall" ;
         <http://www.example.org/entertainment/duration>
-                "131 minutes" , 131 ;
+                131 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
@@ -10165,7 +10165,7 @@
         <http://www.example.org/entertainment/director>
                 "Donald Petrie" ;
         <http://www.example.org/entertainment/duration>
-                "93 minutes" , 93 ;
+                93 ;
         <http://www.example.org/entertainment/language>
                 "English" ;
         <http://www.example.org/entertainment/provider>
