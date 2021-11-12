@@ -807,12 +807,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#date_addedToDisney</IRI>
-        <Literal>dateAddedToDisney+</Literal>
+        <Literal>addedToDisney+</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#date_addedToNetflix</IRI>
-        <Literal>dateAddedToNetflix</Literal>
+        <Literal>addedToNetflix</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
