@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
  
 <#NetflixTripleStore>
-    a rr:TriplesMap;
+     a rr:TriplesMap;
 
     rr:logicalTable [ rr:sqlQuery """
 
@@ -33,7 +33,7 @@
         rr:predicate ex:provider;
         rr:objectMap [rr:template "http://dbpedia.org/resource/Netflix"];
     ];
- 
+
     rr:predicateObjectMap [
         rr:predicate ex:director;
         rr:objectMap [ rr:column "DIRECTOR" ];
