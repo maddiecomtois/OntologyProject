@@ -2,7 +2,6 @@
 @prefix ex: <http://www.example.org/entertainment/>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-@prefix rmlc: <http://www.oeg-upm.net/ns/rmlc#> .
  
 <#NetflixTripleStore>
     a rr:TriplesMap;
