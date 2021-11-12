@@ -5,10 +5,10 @@
                 "United States" ;
         <http://www.example.org/entertainment/duration>
                 "41 minutes (74 minutes 1966 release)" ;
+        <http://www.example.org/entertainment/language>
+                "English" ;
         <http://www.example.org/entertainment/provider>
                 <http://dbpedia.org/DisneyPlus> ;
-        <http://www.example.org/entertainment/release_year>
-                "['May 19, 1937']" ;
         <http://www.example.org/entertainment/revenue>
                 "45.472"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.example.org/entertainment/title>
