@@ -6,6 +6,10 @@ th, td {
   padding:10px;
 }
 
+table {
+  margin-top:20px;
+}
+
 .container {
   text-align: left;
 }
@@ -21,12 +25,65 @@ th, td {
   padding:10px;
 }
 
+.clearTableBtn {
+  padding:10px;
+  font-size: 15px;
+  background-color: #c7defa;
+  border: 1;
+}
+
+.clearTableBtn:hover {
+  cursor:pointer;
+  background-color: #e4eefc;
+}
+
+.prefixes {
+  padding-top:15px;
+  width: 475px;
+  font-size: 15px;
+}
+
 textarea {
   width: 500px;
-  height: 200px;
+  height: 480px;
   font-size: 18px;
 }
 
 .queryContainer {
   display:flex;
+}
+
+.runCodeBtn {
+  float:right;
+  margin-bottom: 10px;
+}
+
+.runCodeBtn:hover {
+  cursor:pointer;
+}
+
+.collapsible {
+  /*background-color: #777;*/
+  background-color: #c7defa;
+  /*color: white;*/
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  /*background-color: #555;*/
+  background-color: #e4eefc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-size: 15px;
 }
