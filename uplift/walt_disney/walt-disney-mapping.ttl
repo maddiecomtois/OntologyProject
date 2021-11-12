@@ -81,7 +81,7 @@
     rr:predicateObjectMap [
         rr:predicate ex:duration;
         rr:objectMap [ 
-            rr:column "RUNTIME";
+            rr:column "Running time (int)";
             rr:datatype xsd:integer
         ];
     ].
