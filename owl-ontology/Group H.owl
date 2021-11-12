@@ -16,7 +16,7 @@
         <Class IRI="#Actor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Age_Rating"/>
+        <Class IRI="#AgeRating"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Director"/>
@@ -31,25 +31,22 @@
         <Class IRI="#Netflix"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Origin_Country"/>
+        <Class IRI="#OriginCountry"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Streamıng_Service"/>
+        <Class IRI="#StreamingService"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TV_Show"/>
+        <Class IRI="#TvShow"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Disney+"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="https://dbpedia.org/page/Country"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://dbpedia.org/page/Disney+#Disney+"/>
@@ -71,6 +68,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#mustContain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#popularises"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#starIn"/>
@@ -227,7 +227,7 @@
         <Class IRI="#Media"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="#has"/>
-            <Class IRI="#Age_Rating"/>
+            <Class IRI="#AgeRating"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -236,15 +236,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Netflix"/>
-        <Class IRI="#Streamıng_Service"/>
+        <Class IRI="#StreamingService"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#TV_Show"/>
+        <Class IRI="#TvShow"/>
         <Class IRI="#Media"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Disney+"/>
-        <Class IRI="#Streamıng_Service"/>
+        <Class IRI="#StreamingService"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
@@ -262,21 +262,32 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://dbpedia.org/page/Disney+#Disney+"/>
-        <Class IRI="#Streamıng_Service"/>
+        <Class IRI="#StreamingService"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://dbpedia.org/page/Netflix#Netflix"/>
-        <Class IRI="#Streamıng_Service"/>
+        <Class IRI="#StreamingService"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AgeRating"/>
+        <Class IRI="#Media"/>
+        <Class IRI="#OriginCountry"/>
+        <Class IRI="#Person"/>
+        <Class IRI="#StreamingService"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </DisjointClasses>
     <InverseObjectProperties>
         <ObjectProperty IRI="#contains"/>
         <ObjectProperty IRI="#starIn"/>
     </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#has"/>
+    </InverseFunctionalObjectProperty>
     <SymmetricObjectProperty>
         <ObjectProperty IRI="#worksWith"/>
     </SymmetricObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty IRI="#starIn"/>
+        <ObjectProperty IRI="#popularises"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#administers"/>
@@ -299,6 +310,10 @@
         <Class IRI="#Media"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#popularises"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#starIn"/>
         <Class IRI="#Actor"/>
     </ObjectPropertyDomain>
@@ -312,7 +327,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#availableOn"/>
-        <Class IRI="#Streamıng_Service"/>
+        <Class IRI="#StreamingService"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#contains"/>
@@ -320,11 +335,15 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has"/>
-        <Class IRI="#Origin_Country"/>
+        <Class IRI="#OriginCountry"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#mustContain"/>
-        <Class IRI="#Age_Rating"/>
+        <Class IRI="#AgeRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#popularises"/>
+        <Class IRI="#Person"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#starIn"/>
@@ -332,7 +351,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#worksWith"/>
-        <Class IRI="#Director"/>
+        <Class IRI="#Actor"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#ID"/>
