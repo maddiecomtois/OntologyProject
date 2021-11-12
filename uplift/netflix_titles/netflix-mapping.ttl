@@ -31,7 +31,7 @@
 
     rr:predicateObjectMap [
         rr:predicate ex:provider;
-        rr:objectMap [rr:column "TITLE"];
+        rr:objectMap [rr:template "http://dbpedia.org/resource/Netflix"];
     ];
 
     rr:predicateObjectMap [
