@@ -11,10 +11,11 @@
             SELECT DISTINCT ?title WHERE &#123;
               ?media rdf:type ?type;
                 entertainment:title ?title;
-                entertainment:provider entertainment:Netflix, entertainment:DisneyPlus;
-                entertainment:addedToNetflix ?date.
-              FILTER(?date > "2019-01-01T00:00:00Z"^^xsd:dateTime)
-              FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
+                entertainment:addedToNetflix ?date;
+                entertainment:provider dbpr:Netflix;
+                entertainment:provider dbpr:DisneyPlus;
+                FILTER(?date > "2019-01-01T00:00:00Z"^^xsd:dateTime)
+                FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
             &#125;
           </pre>
         </code>
@@ -25,15 +26,14 @@
       <div class="content">
         <code>
           <pre>
-            SELECT ((?netflixUS* 100 / ?netflixAll) as ?totalNetflix) 
-                   ((?disneyUS* 100 / ?disneyAll) as ?totalDisney) 
+            SELECT ((?netflixUS* 100 / ?netflixAll) as ?totalNetflix) ((?disneyUS* 100 / ?disneyAll) as ?totalDisney) 
             WHERE
             &#123;
             &#123;
             SELECT DISTINCT (COUNT(*) AS ?netflixUS) WHERE &#123;
               	?movie rdf:type ?type;
-               	 entertainment:provider entertainment:Netflix;
-                	entertainment:country dbpr:United_States.
+               	 entertainment:provider dbpr:Netflix;
+                	entertainment:country "United States".
               	FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
             &#125;
             &#125;
@@ -41,7 +41,7 @@
             &#123;
             SELECT DISTINCT (COUNT(*) AS ?netflixAll) WHERE &#123;
               	?movie rdf:type ?type;
-                	entertainment:provider entertainment:Netflix.
+                	entertainment:provider dbpr:Netflix.
              	 FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
             &#125;
             &#125;
@@ -49,8 +49,8 @@
             &#123;
             SELECT DISTINCT (COUNT(*) AS ?disneyUS) WHERE &#123;
               	?movie rdf:type ?type;
-               	 entertainment:provider entertainment:DisneyPlus;
-                	entertainment:country dbpr:United_States.
+               	 entertainment:provider dbpr:DisneyPlus;
+                	entertainment:country "United States".
               	FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
             &#125;
             &#125;
@@ -58,7 +58,7 @@
             &#123;
             SELECT DISTINCT (COUNT(*) AS ?disneyAll) WHERE &#123;
               	?movie rdf:type ?type;
-                	entertainment:provider entertainment:DisneyPlus.
+                	entertainment:provider dbpr:DisneyPlus.
              	 FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
             &#125;
             &#125;
@@ -72,14 +72,14 @@
       <div class="content">
         <code>
           <pre>
-            SELECT DISTINCT ?director WHERE &#123;
+            SELECT DISTINCT ?title1 ?director WHERE &#123;
               ?movie rdf:type entertainment:Movie;
                 entertainment:title ?title1;
-                entertainment:provider entertainment:Netflix;
+                entertainment:provider dbpr:Netflix;
                 entertainment:director ?director.
               ?movie2 rdf:type entertainment:Movie;
                 entertainment:title ?title2;
-                entertainment:provider entertainment:DisneyPlus;
+                entertainment:provider dbpr:DisneyPlus;
                 entertainment:director ?director.
               FILTER(?title1 != ?title2)
             &#125;
@@ -98,9 +98,9 @@
                   BIND(?rating AS ?topNetflixRating)
                   ?media rdf:type ?type;
                     entertainment:title ?title;
-                    entertainment:provider entertainment:Netflix;
+                    entertainment:provider dbpr:Netflix;
                     entertainment:rating ?rating;
-                    entertainment:country dbpr:United_States.
+                    entertainment:country "United States".
                   FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
                 &#125;
                 GROUP BY ?topNetflixRating ?title
@@ -113,9 +113,9 @@
                   BIND(?rating AS ?topDisneyRating)
                   ?media rdf:type ?type;
                     entertainment:title ?title;
-                    entertainment:provider entertainment:DisneyPlus;
+                    entertainment:provider dbpr:DisneyPlus;
                     entertainment:rating ?rating;
-                    entertainment:country dbpr:United_States.
+                    entertainment:country "United States".
                   FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
                 &#125;
                 GROUP BY ?topDisneyRating ?title
@@ -136,15 +136,14 @@
               &#123;
                 SELECT ?netflixDuration WHERE &#123;
                   ?movie rdf:type entertainment:Movie;
-                    entertainment:provider entertainment:Netflix;
+                    entertainment:provider dbpr:Netflix;
                     entertainment:duration ?netflixDuration.
                 &#125;
               &#125;
-              UNION
               &#123;
                 SELECT ?disneyDuration WHERE &#123;
                   ?movie rdf:type entertainment:Movie;
-                    entertainment:provider entertainment:DisneyPlus;
+                    entertainment:provider dbpr:DisneyPlus;
                     entertainment:duration ?disneyDuration.
                 &#125;
               &#125;
@@ -161,7 +160,7 @@
             SELECT DISTINCT ?title ?revenue WHERE &#123;
               ?movie rdf:type entertainment:Movie;
                 entertainment:title ?title;
-                entertainment:provider entertainment:DisneyPlus;
+                entertainment:provider dbpr:DisneyPlus;
                 entertainment:rating "G";
                 entertainment:revenue ?revenue.
             &#125;
@@ -179,30 +178,29 @@
             SELECT DISTINCT ?title ?director WHERE &#123;
               ?movie rdf:type entertainment:Movie;
                 entertainment:title ?title;
-                entertainment:provider entertainment:DisneyPlus;
+                entertainment:provider dbpr:DisneyPlus;
                 entertainment:director ?director;
                 entertainment:budget ?budget.
               FILTER(?budget < 4000000 )
+              FILTER (!regex(?director, ","))
             &#125;
-            GROUP BY ?movie ?title ?director
-            HAVING (count(distinct ?director) = 1)
           </pre>
         </code>
         <button class="runCodeBtn" (click)="getQueryResponse(this.query7)"> Run </button>
       </div>
       <!-- Query 8 -->
-      <button type="button" class="button collapsible">8)  What Netflix movies added to the website in 2021 have an IMDB rating of 9+? </button>
+      <button type="button" class="button collapsible">8)  What Netflix movies added to the website in 2021 have an IMDB rating of 8+? </button>
       <div class="content">
         <code>
           <pre>
             SELECT DISTINCT ?title ?imdbRating WHERE &#123;
               ?movie rdf:type entertainment:Movie;
                 entertainment:title ?title;
-                entertainment:provider entertainment:Netflix;
+                entertainment:provider dbpr:Netflix;
                 entertainment:addedToNetflix ?date;
                 entertainment:imdbRating ?imdbRating.
               FILTER(?date > "2021-01-01T00:00:00Z"^^xsd:dateTime)
-              FILTER(?imdbRating > "9.0"^^xsd:decimal)
+              FILTER(?imdbRating > 8.0)
             &#125;
           </pre>
         </code>
@@ -213,15 +211,15 @@
       <div class="content">
         <code>
           <pre>
-            SELECT ?title ?rating WHERE &#123;
+            SELECT ?title ?duration ?rating WHERE &#123;
               ?movie rdf:type entertainment:Movie;
                 entertainment:title ?title;
-                entertainment:provider entertainment:DisneyPlus;
-                entertainment:tomatoRating ?rating;
+                entertainment:provider dbpr:DisneyPlus;
+                entertainment:rottenTomatoesRating ?rating;
                 entertainment:duration ?duration.
               FILTER(?duration >= 100 )
             &#125;
-            GROUP BY ?rating ?title
+            GROUP BY ?rating ?duration ?title
             ORDER BY DESC (?rating)
             LIMIT 5
           </pre>
@@ -236,7 +234,7 @@
             SELECT ?title ?rating ?budget WHERE &#123;
               ?movie rdf:type entertainment:Movie;
                 entertainment:title ?title;
-                entertainment:provider entertainment:DisneyPlus;
+                entertainment:provider dbpr:DisneyPlus;
                 entertainment:budget ?budget;
                 entertainment:imdbRating ?rating.
               FILTER(?budget < 2000000 )
@@ -254,7 +252,9 @@
     <div>
     <div class="prefixes">
       <code>
-        {{prefixes}}
+        <pre>
+          {{prefixes}}
+        </pre>
       </code>
     </div>
       <div class="inputQuery">
@@ -291,6 +291,7 @@
       </tr>
   </table>
   
-  <!-- Message displayed if no query results returned -->
-  <div *ngIf="!requestReceived"> {{message}} </div>
+  <!-- Messages displayed based on interface state -->
+  <div *ngIf="!requestReceived && !loading"> {{noResultsMessage}} </div>
+  <div *ngIf="loading"> {{loadingMessage}} </div>
 </div>

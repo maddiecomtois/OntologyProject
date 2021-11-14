@@ -10,6 +10,12 @@ table {
   margin-top:20px;
 }
 
+textarea {
+  width: 600px;
+  height: 400px;
+  font-size: 18px;
+}
+
 .container {
   text-align: left;
 }
@@ -38,15 +44,8 @@ table {
 }
 
 .prefixes {
-  padding-top:15px;
-  width: 475px;
+  width: 487px;
   font-size: 15px;
-}
-
-textarea {
-  width: 500px;
-  height: 480px;
-  font-size: 18px;
 }
 
 .queryContainer {
@@ -63,9 +62,7 @@ textarea {
 }
 
 .collapsible {
-  /*background-color: #777;*/
   background-color: #c7defa;
-  /*color: white;*/
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -76,7 +73,6 @@ textarea {
 }
 
 .active, .collapsible:hover {
-  /*background-color: #555;*/
   background-color: #e4eefc;
 }
 
