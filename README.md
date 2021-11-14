@@ -11,8 +11,15 @@ Start the front end with ng (localhost:4200)
 ```~/ontology-project/src/app $ ng serve```
 
 
-Create a Repsitory on GraphDB with the name ```OntologyProject```.  Then upload the turtle files and owl file.  The repository should be hosted with the url ```http://localhost:7200/repositories/OntologyProject```
+Create a Repsitory on GraphDB with the name ```OntologyProject```.  Then upload the turtle files and owl file: (located on the top level of the GitHub repo)  
+- ```uplift/dataset_4/dataset-4-output.ttl```  
+- ```uplift/disney_plus_titles/disney-plus-output.ttl```  
+- ```uplift/netflix_titles/netflix-output.ttl```  
+- ```uplift/walt_disney/walt-disney-output.ttl```  
+- ```owl-ontology/group_H_ontology.owl```  
 
+The repository should be hosted at the url:  
+```http://localhost:7200/repositories/OntologyProject```
 
 
 Open a browser window and connect to ```localhost:4200``` to see the interface.
