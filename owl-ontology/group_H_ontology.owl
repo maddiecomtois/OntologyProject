@@ -1,0 +1,571 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/maddie/ontologies/2021/10/group_H_ontology.owl#"
+     xml:base="http://www.semanticweb.org/maddie/ontologies/2021/10/group_H_ontology.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/maddie/ontologies/2021/10/group_H_ontology.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#administers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#administers">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#availableOn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#availableOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#availableOn">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#contains"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#contains">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#has"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#has">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#mustContain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#mustContain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#mustContain">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#popularises"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#popularises -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#popularises">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#starIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#starIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#starIn">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#worksWith"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#worksWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#worksWith">
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#bottomObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#bottomObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#bottomObjectProperty">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#administers"/>
+                <owl:equivalentProperty>
+                    <rdf:Description>
+                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#availableOn"/>
+                        <owl:equivalentProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#contains"/>
+                                <owl:equivalentProperty>
+                                    <rdf:Description>
+                                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#has"/>
+                                        <owl:equivalentProperty>
+                                            <rdf:Description>
+                                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#mustContain"/>
+                                                <owl:equivalentProperty>
+                                                    <rdf:Description>
+                                                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#popularises"/>
+                                                        <owl:equivalentProperty>
+                                                            <rdf:Description>
+                                                                <owl:inverseOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#starIn"/>
+                                                                <owl:equivalentProperty>
+                                                                    <rdf:Description>
+                                                                        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#worksWith"/>
+                                                                    </rdf:Description>
+                                                                </owl:equivalentProperty>
+                                                            </rdf:Description>
+                                                        </owl:equivalentProperty>
+                                                    </rdf:Description>
+                                                </owl:equivalentProperty>
+                                            </rdf:Description>
+                                        </owl:equivalentProperty>
+                                    </rdf:Description>
+                                </owl:equivalentProperty>
+                            </rdf:Description>
+                        </owl:equivalentProperty>
+                    </rdf:Description>
+                </owl:equivalentProperty>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#ID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#ID">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#adaptation_by"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#adaptation_by -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#adaptation_by">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#age"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#age">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#animation_by"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#animation_by -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#animation_by">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#basedOn"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#basedOn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#basedOn">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#box_office"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#box_office -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#box_office">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#budget"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#budget -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#budget">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#cast"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#cast -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#cast">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#cinematography"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#cinematography -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#cinematography">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#color_process"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#color_process -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#color_process">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#country"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#country -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#country">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#date_addedToDisney"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#date_addedToDisney -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#date_addedToDisney">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#date_addedToNetflix"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#date_addedToNetflix -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#date_addedToNetflix">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#description"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#description">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#director"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#director -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#director">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#distributedBy"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#distributedBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#distributedBy">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#duration"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#duration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#duration">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#editedBy"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#editedBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#editedBy">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#genres"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#genres -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#genres">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#hepburn"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#hepburn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#hepburn">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#imdb"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#imdb -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#imdb">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#language"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#language -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#language">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#listed_in"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#listed_in -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#listed_in">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#musicBy"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#musicBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#musicBy">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#narrratedBy"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#narrratedBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#narrratedBy">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#producedBy"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#producedBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#producedBy">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#productionCompany"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#productionCompany -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#productionCompany">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#ratıng"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#ratıng -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#ratıng">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#release_year"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#release_year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#release_year">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#rotten_tomatoes"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#rotten_tomatoes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#rotten_tomatoes">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#screenplay"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#screenplay -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#screenplay">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#showID"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#showID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#showID">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#starring"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#starring -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#starring">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#storyBy"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#storyBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#storyBy">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#type"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#type">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#tıtle"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#tıtle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#tıtle">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#writtenBy"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#writtenBy -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#writtenBy">
+        <owl:equivalentProperty rdf:resource="http://www.w3.org/2002/07/owl#bottomDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#bottomDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#bottomDataProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Actor">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Director"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Director">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Media"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Media">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Movie"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Movie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Movie">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Person"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Netflix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Netflix">
+        <owl:equivalentClass rdf:resource="https://dbpedia.org/page/Netflix#Netflix"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#StreamingService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Person">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#TvShow"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#StreamingService -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#StreamingService"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#TvShow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#TvShow">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Disney+ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#Disney+">
+        <owl:equivalentClass rdf:resource="https://dbpedia.org/page/Disney+#Disney+"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#StreamingService"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Nothing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://dbpedia.org/page/Disney+#Disney+ -->
+
+    <owl:Class rdf:about="https://dbpedia.org/page/Disney+#Disney+">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#StreamingService"/>
+    </owl:Class>
+    
+
+
+    <!-- https://dbpedia.org/page/Netflix#Netflix -->
+
+    <owl:Class rdf:about="https://dbpedia.org/page/Netflix#Netflix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tolga/ontologies/2021/9/movie#StreamingService"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
