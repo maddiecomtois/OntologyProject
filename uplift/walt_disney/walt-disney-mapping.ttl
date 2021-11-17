@@ -31,29 +31,34 @@
         rr:predicate ex:director;
         rr:objectMap [ rr:column "DIRECTOR" ];
     ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:cast;
+        rr:objectMap [ rr:column "CAST" ];
+    ];
  
     rr:predicateObjectMap [
-        rr:predicate ex:actor1;
+        rr:predicate ex:actor;
         rr:objectMap [ rr:column "ACTOR1" ];
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:actor2;
+        rr:predicate ex:actor;
         rr:objectMap [ rr:column "ACTOR2" ];
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:actor3;
+        rr:predicate ex:actor;
         rr:objectMap [ rr:column "ACTOR3" ];
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:actor4;
+        rr:predicate ex:actor;
         rr:objectMap [ rr:column "ACTOR4" ];
     ];
 
     rr:predicateObjectMap [
-        rr:predicate ex:actor5;
+        rr:predicate ex:actor;
         rr:objectMap [ rr:column "ACTOR5" ];
     ];
 
