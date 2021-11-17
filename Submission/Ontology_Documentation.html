@@ -74,6 +74,8 @@ $(function(){
 </div>
 <div id="toc"><h2>Table of contents</h2><ul><li>1. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#intro">Introduction </a></li><ul><li>1.1. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#ns">Namespace declarations</a></li></ul><li>2. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#overv">[Ontology Name]: Overview </a></li><li>3. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#desc">[Ontology Name]: Description </a></li><li>4. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#crossreference">Cross reference for [Ontology Name] classes, properties and dataproperties </a></li><ul><li>4.1. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#classes-headline">Classes</a></li><li>4.2. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#properties">Object Properties</a></li><li>4.3. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#dataproperties-headline">Data Properties</a></li></ul><li>5. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#ref">References </a></li><li>6. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#ack">Acknowledgments </a></li></ul></div> 
 
+<h3> Queries (Documented at the end) </h3>
+
 <!--INTRODUCTION SECTION-->
     <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#toc">ToC</a></span></h2>
 <p>This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</p>
@@ -1902,6 +1904,260 @@ This section provides details for each class and property defined by [Ontology N
 <h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#toc">ToC</a></span></h2>
 <p>
 The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+
+<!-- QUERIES SECTION -->
+<h2> Queries </h2>
+This section describes the queries designed to test our ontology based on the competency quesitons we created.  We have a total of 10 queries, one for each question.
+</br>
+</br>
+We used the following prefixes before each query: 
+<div>
+  <code>
+    <pre>
+      PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+      PREFIX entertainment: &lt;http://www.example.org/entertainment/&gt;
+      PREFIX dbpr: &lt;http://dbpedia.org/resource/&gt;
+      PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+    </pre>
+  </code>
+</div>
+
+<div>
+  <!-- Query 1 -->
+  <div>1)  Are there any shows/movies on both Netflix and Disney+ that were added to Netflix after 2019?</div>
+  <div>
+    <code>
+      <pre>
+        SELECT DISTINCT ?title WHERE &#123;
+          ?media rdf:type ?type;
+            entertainment:title ?title;
+            entertainment:addedToNetflix ?date;
+            entertainment:provider dbpr:Netflix;
+            entertainment:provider dbpr:DisneyPlus;
+            FILTER(?date > "2019-01-01T00:00:00Z"^^xsd:dateTime)
+            FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
+        &#125;
+      </pre>
+    </code>
+  </div>
+  <!-- Query 2 -->
+  <div>2)  Compare the percentages of movies/shows on offer from the United States by Disney+ and Netflix.</div>
+  <div>
+    <code>
+      <pre>
+        SELECT ((?netflixUS* 100 / ?netflixAll) as ?totalNetflix) ((?disneyUS* 100 / ?disneyAll) as ?totalDisney) 
+        WHERE
+        &#123;
+        &#123;
+        SELECT DISTINCT (COUNT(*) AS ?netflixUS) WHERE &#123;
+            ?movie rdf:type ?type;
+             entertainment:provider dbpr:Netflix;
+              entertainment:country "United States".
+            FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
+        &#125;
+        &#125;
+
+        &#123;
+        SELECT DISTINCT (COUNT(*) AS ?netflixAll) WHERE &#123;
+            ?movie rdf:type ?type;
+              entertainment:provider dbpr:Netflix.
+           FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
+        &#125;
+        &#125;
+
+        &#123;
+        SELECT DISTINCT (COUNT(*) AS ?disneyUS) WHERE &#123;
+            ?movie rdf:type ?type;
+             entertainment:provider dbpr:DisneyPlus;
+              entertainment:country "United States".
+            FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
+        &#125;
+        &#125;
+
+        &#123;
+        SELECT DISTINCT (COUNT(*) AS ?disneyAll) WHERE &#123;
+            ?movie rdf:type ?type;
+              entertainment:provider dbpr:DisneyPlus.
+           FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
+        &#125;
+        &#125;
+        &#125;
+      </pre>
+    </code>
+  </div>
+  <!-- Query 3 -->
+  <div>3)  Are there any Netflix movies with the same director as a different Disney+ movie?</div>
+  <div>
+    <code>
+      <pre>
+        SELECT DISTINCT ?title1 ?director WHERE &#123;
+          ?movie rdf:type entertainment:Movie;
+            entertainment:title ?title1;
+            entertainment:provider dbpr:Netflix;
+            entertainment:director ?director.
+          ?movie2 rdf:type entertainment:Movie;
+            entertainment:title ?title2;
+            entertainment:provider dbpr:DisneyPlus;
+            entertainment:director ?director.
+          FILTER(?title1 != ?title2)
+        &#125;
+      </pre>
+    </code>
+  </div>
+  <!-- Query 4 -->
+  <div>4)  Is the most common rating of US Netflix shows/movies different to that of US Disney+ ones? (e.g. MA vs PG)</div>
+  <div>
+    <code>
+      <pre>
+        SELECT ?topNetflixRating ?topDisneyRating WHERE &#123;
+          &#123;
+            SELECT ?topNetflixRating WHERE &#123;
+              BIND(?rating AS ?topNetflixRating)
+              ?media rdf:type ?type;
+                entertainment:title ?title;
+                entertainment:provider dbpr:Netflix;
+                entertainment:rating ?rating;
+                entertainment:country "United States".
+              FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
+            &#125;
+            GROUP BY ?topNetflixRating ?title
+            ORDER BY DESC (COUNT(?title))
+            LIMIT 1
+          &#125;
+          UNION
+          &#123;
+            SELECT ?topDisneyRating WHERE &#123;
+              BIND(?rating AS ?topDisneyRating)
+              ?media rdf:type ?type;
+                entertainment:title ?title;
+                entertainment:provider dbpr:DisneyPlus;
+                entertainment:rating ?rating;
+                entertainment:country "United States".
+              FILTER((?type = entertainment:Movie) || (?type = entertainment:TVShow))
+            &#125;
+            GROUP BY ?topDisneyRating ?title
+            ORDER BY DESC (COUNT(?title))
+            LIMIT 1
+          &#125;
+        &#125;
+      </pre>
+    </code>
+  </div>
+  <!-- Query 5 -->
+  <div>5)  On average, are Disney+ movies or Netflix movies longer in duration?</div>
+  <div>
+    <code>
+      <pre>
+        SELECT (AVG(?netflixDuration) AS ?nDuration) (AVG(?disneyDuration) AS ?dDuration) WHERE &#123;
+          &#123;
+            SELECT ?netflixDuration WHERE &#123;
+              ?movie rdf:type entertainment:Movie;
+                entertainment:provider dbpr:Netflix;
+                entertainment:duration ?netflixDuration.
+            &#125;
+          &#125;
+          &#123;
+            SELECT ?disneyDuration WHERE &#123;
+              ?movie rdf:type entertainment:Movie;
+                entertainment:provider dbpr:DisneyPlus;
+                entertainment:duration ?disneyDuration.
+            &#125;
+          &#125;
+        &#125;
+      </pre>
+    </code>
+  </div>
+  <!-- Query 6 -->
+  <div>6)  What are the top 10 Disney movies with a rating of G on Disney+, based on box office revenue?</div>
+  <div>
+    <code>
+      <pre>
+        SELECT DISTINCT ?title ?revenue WHERE &#123;
+          ?movie rdf:type entertainment:Movie;
+            entertainment:title ?title;
+            entertainment:provider dbpr:DisneyPlus;
+            entertainment:rating "G";
+            entertainment:revenue ?revenue.
+        &#125;
+        ORDER BY DESC (?revenue)
+        LIMIT 10
+      </pre>
+    </code>
+  </div>
+  <!-- Query 7 -->
+  <div>7)  What Disney+ movies with a single director had a budget of less than 4 million?</div>
+  <div>
+    <code>
+      <pre>
+        SELECT DISTINCT ?title ?director WHERE &#123;
+          ?movie rdf:type entertainment:Movie;
+            entertainment:title ?title;
+            entertainment:provider dbpr:DisneyPlus;
+            entertainment:director ?director;
+            entertainment:budget ?budget.
+          FILTER(?budget < 4000000 )
+          FILTER (!regex(?director, ","))
+        &#125;
+      </pre>
+    </code>
+  </div>
+  <!-- Query 8 -->
+  <div>8)  What Netflix movies added to the website in 2021 have an IMDB rating of 8+?</div>
+  <div>
+    <code>
+      <pre>
+        SELECT DISTINCT ?title ?imdbRating WHERE &#123;
+          ?movie rdf:type entertainment:Movie;
+            entertainment:title ?title;
+            entertainment:provider dbpr:Netflix;
+            entertainment:addedToNetflix ?date;
+            entertainment:imdbRating ?imdbRating.
+          FILTER(?date > "2021-01-01T00:00:00Z"^^xsd:dateTime)
+          FILTER(?imdbRating > 8.0)
+        &#125;
+      </pre>
+    </code>
+  </div>
+  <!-- Query 9 -->
+  <div>9)  What are the top 5 Disney movies with a duration of 100+ minutes on Rotten Tomatoes? </div>
+  <div>
+    <code>
+      <pre>
+        SELECT ?title ?duration ?rating WHERE &#123;
+          ?movie rdf:type entertainment:Movie;
+            entertainment:title ?title;
+            entertainment:provider dbpr:DisneyPlus;
+            entertainment:rottenTomatoesRating ?rating;
+            entertainment:duration ?duration.
+          FILTER(?duration >= 100 )
+        &#125;
+        GROUP BY ?rating ?duration ?title
+        ORDER BY DESC (?rating)
+        LIMIT 5
+      </pre>
+    </code>
+  </div>
+  <!-- Query 10 -->
+  <div>10)  Of all the Disney+ movies with a budget of less than 2 million, which has the highest rating on IMDB?</div>
+  <div>
+    <code>
+      <pre>
+        SELECT ?title ?rating ?budget WHERE &#123;
+          ?movie rdf:type entertainment:Movie;
+            entertainment:title ?title;
+            entertainment:provider dbpr:DisneyPlus;
+            entertainment:budget ?budget;
+            entertainment:imdbRating ?rating.
+          FILTER(?budget < 2000000 )
+        &#125;
+        GROUP BY ?rating ?title ?budget
+        ORDER BY DESC (?rating)
+        LIMIT 1
+      </pre>
+    </code>
+  </div>
+  
 </div>
 
 
