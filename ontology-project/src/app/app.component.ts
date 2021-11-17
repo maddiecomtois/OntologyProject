@@ -80,17 +80,15 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>`;
   // sends constructed sparql query to graphDB, return raw results
   sendQuery(query: string): Observable<any[]> {
     this.requestReceived = false;
-    const params = new HttpParams()
-        .set('query', query)
-        .set('format', 'json');
-      const options = {
+    let params = new HttpParams().set('query', query).set('format', 'json');
+    let headerConfigs = {
         headers: new HttpHeaders({
           'Content-Type': 'application/json',
           'Accept': 'application/sparql-results+json'
         }),
         params: params
       };
-      return this.http.get<any>(this.graphDBurl, options);
+    return this.http.get<any>(this.graphDBurl, headerConfigs);
   }
   
   // parse the results of the sparql query
