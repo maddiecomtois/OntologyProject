@@ -273,15 +273,7 @@
     <tr>
       <th *ngFor="let header of queryHeaders"> {{header}} </th>
     </tr>
-    
-    <!-- Table rows -->
-    <!-- This one works for Query 4
-    <tr *ngFor="let query of queryResponses">
-      <ng-container *ngFor="let item of query | keyvalue">
-          <td *ngFor="let header of queryHeaders"> {{item.key == header? item.value : null}}</td>
-      </ng-container>
-    </tr>
-    -->
+      <!-- print triples -->
       <tr *ngFor="let query of queryResponses">
         <ng-container *ngFor="let header of queryHeaders">
           <ng-container *ngFor="let item of query | keyvalue"> 
