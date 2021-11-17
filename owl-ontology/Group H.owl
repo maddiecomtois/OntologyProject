@@ -70,6 +70,9 @@
         <ObjectProperty IRI="#mustContain"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#originFrom"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#popularises"/>
     </Declaration>
     <Declaration>
@@ -315,8 +318,15 @@
         <ObjectProperty IRI="#contains"/>
         <ObjectProperty IRI="#starIn"/>
     </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has"/>
+        <ObjectProperty IRI="#originFrom"/>
+    </InverseObjectProperties>
     <InverseFunctionalObjectProperty>
         <ObjectProperty IRI="#has"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#originFrom"/>
     </InverseFunctionalObjectProperty>
     <SymmetricObjectProperty>
         <ObjectProperty IRI="#worksWith"/>
@@ -338,10 +348,14 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#has"/>
-        <Class IRI="#Media"/>
+        <Class IRI="#OriginCountry"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#mustContain"/>
+        <Class IRI="#Media"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#originFrom"/>
         <Class IRI="#Media"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -370,11 +384,15 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#has"/>
-        <Class IRI="#OriginCountry"/>
+        <Class IRI="#Media"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#mustContain"/>
         <Class IRI="#AgeRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#originFrom"/>
+        <Class IRI="#OriginCountry"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#popularises"/>
