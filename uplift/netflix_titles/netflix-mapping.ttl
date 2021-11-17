@@ -38,10 +38,35 @@
         rr:predicate ex:director;
         rr:objectMap [ rr:column "DIRECTOR" ];
     ];
- 
+
     rr:predicateObjectMap [
         rr:predicate ex:cast;
         rr:objectMap [ rr:column "CAST" ];
+    ];
+ 
+    rr:predicateObjectMap [
+        rr:predicate ex:actor;
+        rr:objectMap [ rr:column "ACTOR1" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:actor;
+        rr:objectMap [ rr:column "ACTOR2" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:actor;
+        rr:objectMap [ rr:column "ACTOR3" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:actor;
+        rr:objectMap [ rr:column "ACTOR4" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:actor;
+        rr:objectMap [ rr:column "ACTOR5" ];
     ];
 
     rr:predicateObjectMap [
@@ -66,7 +91,10 @@
 
     rr:predicateObjectMap [
         rr:predicate ex:duration;
-        rr:objectMap [ rr:column "DURATION";             rr:datatype xsd:integer ];
+        rr:objectMap [ 
+            rr:column "DURATION";
+            rr:datatype xsd:integer
+        ];
     ];
 
     rr:predicateObjectMap [

@@ -3,7 +3,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
  
-<#NetflixTripleStore>
+<#WaltDisneyTripleStore>
      a rr:TriplesMap;
 
     rr:logicalTable [ rr:tableName "walt_disney" ];
@@ -31,10 +31,35 @@
         rr:predicate ex:director;
         rr:objectMap [ rr:column "DIRECTOR" ];
     ];
- 
+
     rr:predicateObjectMap [
         rr:predicate ex:cast;
         rr:objectMap [ rr:column "CAST" ];
+    ];
+ 
+    rr:predicateObjectMap [
+        rr:predicate ex:actor;
+        rr:objectMap [ rr:column "ACTOR1" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:actor;
+        rr:objectMap [ rr:column "ACTOR2" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:actor;
+        rr:objectMap [ rr:column "ACTOR3" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:actor;
+        rr:objectMap [ rr:column "ACTOR4" ];
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate ex:actor;
+        rr:objectMap [ rr:column "ACTOR5" ];
     ];
 
     rr:predicateObjectMap [
