@@ -899,6 +899,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#originFrom</IRI>
+        <Literal>originFrom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#popularises</IRI>
         <Literal>popularises</Literal>
     </AnnotationAssertion>
