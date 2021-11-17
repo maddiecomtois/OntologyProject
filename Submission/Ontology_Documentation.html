@@ -69,16 +69,17 @@ $(function(){
 <div>
 <span>Ontology Specification Draft</span>
 </div>
-</div>     <div id="abstract"><h2>Abstract</h2><p>This is a place holder text for the abstract. The abstract should contain a couple of sentences summarizing the ontology and its purpose.</p>
+</div>     <div id="abstract"><h2>Abstract</h2><p>This ontology describes the relationships and attributes of movies and TV Shows, which are streamed from Netflix 
+  and Disney+.  This ontology links the different properties found in multiple movie datasets and shows how they can be combined.</p>
 
 </div>
-<div id="toc"><h2>Table of contents</h2><ul><li>1. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#intro">Introduction </a></li><ul><li>1.1. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#ns">Namespace declarations</a></li></ul><li>2. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#overv">[Ontology Name]: Overview </a></li><li>3. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#desc">[Ontology Name]: Description </a></li><li>4. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#crossreference">Cross reference for [Ontology Name] classes, properties and dataproperties </a></li><ul><li>4.1. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#classes-headline">Classes</a></li><li>4.2. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#properties">Object Properties</a></li><li>4.3. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#dataproperties-headline">Data Properties</a></li></ul><li>5. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#ref">References </a></li><li>6. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#ack">Acknowledgments </a></li></ul></div> 
+<div id="toc"><h2>Table of contents</h2><ul><li>1. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#intro">Introduction </a></li><ul><li>1.1. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#ns">Namespace declarations</a></li></ul><li>2. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#overv">Entertainment: Overview </a></li><li>3. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#desc">Entertainment: Description </a></li><li>4. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#crossreference">Cross reference for Entertainment classes, properties and dataproperties </a></li><ul><li>4.1. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#classes-headline">Classes</a></li><li>4.2. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#properties">Object Properties</a></li><li>4.3. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#dataproperties-headline">Data Properties</a></li></ul><li>5. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#ref">References </a></li><li>6. <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#ack">Acknowledgments </a></li></ul></div> 
 
 <h3> Queries (Documented at the end) </h3>
 
 <!--INTRODUCTION SECTION-->
     <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#toc">ToC</a></span></h2>
-<p>This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</p>
+<p>This ontology combines different movies and TV shows from four different data sets. The data is connected using entities such as streaming platform, i.e. Netflix or Disney+, the actors and directors associated with the movies, titles, duration, and other values contained in the separate data sets. </p>
 
 <div id="namespacedeclarations">
 <h3 id="ns" class="list">Namespace declarations</h3>
@@ -86,7 +87,7 @@ $(function(){
 <table>
 <caption> <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#ns"> Table 1</a>: Namespaces used in the document </caption>
 <tbody>
-<tr><td><b>[Ontology NS Prefix]</b></td><td>&lt;http://www.semanticweb.org/tolga/ontologies/2021/9/movie&gt;</td></tr>
+<tr><td><b>entertainment</b></td><td>&lt;http://www.semanticweb.org/tolga/ontologies/2021/9/movie&gt;</td></tr>
 <tr><td><b>Netflix</b></td><td>&lt;https://dbpedia.org/page/Netflix&gt;</td></tr>
 <tr><td><b>owl</b></td><td>&lt;http://www.w3.org/2002/07/owl&gt;</td></tr>
 <tr><td><b>rdf</b></td><td>&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns&gt;</td></tr>
@@ -102,7 +103,7 @@ $(function(){
   
 
 <!--OVERVIEW SECTION-->
-    <div id="overview"><h2 id="overv" class="list">[Ontology Name]: Overview <span class="backlink"> back to <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#toc">ToC</a></span></h2>
+    <div id="overview"><h2 id="overv" class="list">Entertainment: Overview <span class="backlink"> back to <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#toc">ToC</a></span></h2>
 <p>This ontology has the following classes and properties.</p>
 
 <h4>Classes</h4>
@@ -294,7 +295,7 @@ $(function(){
   
 
 <!--DESCRIPTION SECTION-->
-    <div id="description"><h2 id="desc" class="list">[Ontology Name]: Description <span class="backlink"> back to <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#toc">ToC</a></span></h2>
+    <div id="description"><h2 id="desc" class="list">Entertainment: Description <span class="backlink"> back to <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#toc">ToC</a></span></h2>
 <p>This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</p>
 
 
@@ -302,8 +303,8 @@ $(function(){
    
 
 <!--CROSSREF SECTION-->
-   <div id="crossref"><h2 id="crossreference" class="list">Cross reference for [Ontology Name] classes, properties and dataproperties <span class="backlink"> back to <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#toc">ToC</a></span></h2>
-This section provides details for each class and property defined by [Ontology Name].
+   <div id="crossref"><h2 id="crossreference" class="list">Cross reference for Entertainment  classes, properties and dataproperties <span class="backlink"> back to <a href="file://localhost/Users/sophiecrowley/Downloads/myDocumentation/index-en.html#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Entertainment.
 <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
